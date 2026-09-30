@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-09-30T09:26:49.151403+00:00",
+  "created_utc": "2026-09-30T09:40:42.040609+00:00",
   "files": {
     "tables/stage14/camp_confidence_bins.csv": {
       "sha256": "7fb366f378a4ef89d15cccd5a88eacda65fcc7d979907e908aa0a1e709fbb1f6",
@@ -406,9 +406,34 @@
       "bytes": 1001,
       "source": "results/A-DENSEUAV-TRANSITIONS-001/review.json"
     },
+    "results/vild_coverage/metrics.csv": {
+      "sha256": "ab780ab9c17bc74e41c2e29513109728b1574323bda05a8b8d3d04d8f9f5bf6d",
+      "bytes": 44879,
+      "source": "results/A-VILD-COVERAGE-001/metrics.csv"
+    },
+    "results/vild_coverage/summary.json": {
+      "sha256": "ef37d40ab32fc04d63a95d556323d1eae559136fd8d4a3dca82879549410c833",
+      "bytes": 7402,
+      "source": "results/A-VILD-COVERAGE-001/summary.json"
+    },
+    "results/vild_coverage/review.json": {
+      "sha256": "bcac4683dff95d59a1ff201013da883e59f5ca4859037315d049c3982182da25",
+      "bytes": 755,
+      "source": "results/A-VILD-COVERAGE-001/review.json"
+    },
+    "experiments/check_vild_coverage.py": {
+      "sha256": "6fdcbcf4f8f14e888cc28229eca69d2361b4debb1fe31bb96d2da11855e4b49d",
+      "bytes": 3815,
+      "source": "experiments/check_vild_coverage.py"
+    },
+    "configs/A-VILD-COVERAGE-001.json": {
+      "sha256": "c866030dd00ac26572023cc26a838641dd6891011afe954ee5eed5bc0a69661a",
+      "bytes": 1318,
+      "source": "configs/A-VILD-COVERAGE-001.json"
+    },
     "README.md": {
-      "sha256": "ead35997adbf57577dea0c3efd1b9e5810282ae6b7db646ec73e0e74ba63aefb",
-      "bytes": 4711,
+      "sha256": "2f808926cdea1f53751f0dbc15fac5a8867d014e39f972aabafa081e778b5a8c",
+      "bytes": 5635,
       "source": "release-specific original text"
     },
     "verify_artifacts.py": {

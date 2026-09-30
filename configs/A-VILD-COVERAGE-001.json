@@ -1,0 +1,15 @@
+{
+  "purpose": "Metadata-only intervention feasibility. Not image inference, method validation or natural-weather validation.",
+  "data": "ViLD Zenodo record 19223815, official test splits for flight10/vild and flight09/vild_09",
+  "primary_radius_m": 100,
+  "secondary_radius_m": [50, 150],
+  "seed_start": 30091700,
+  "seeds": 20,
+  "target_entry_fractions": [0.25, 0.5],
+  "spatial_cell_m": 500,
+  "spatial_rule": "Fixed UTM grid floor(easting/500),floor(northing/500); seed permutes cells. Select shortest cumulative cell prefix reaching target entry count; whole cells are removed.",
+  "matched_random_rule": "Uniform sample without replacement of exactly the same number of gallery entries removed by the corresponding spatial case.",
+  "outcome": "Query has zero retained gallery candidates within each published-reference radius. Report repeated-mask counts separately from independent sites.",
+  "selection_timing": "After metadata audit found many positives per query; before intervention outcomes or any image scores. This is a follow-up design, not untouched-data confirmation.",
+  "constraints": ["No model scores", "No p values across masks as if sites", "No independent physical-coordinate certification", "No weather or condition labels inferred", "No alteration of original SUES or DenseUAV gates"]
+}

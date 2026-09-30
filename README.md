@@ -17,6 +17,19 @@ Detailed tables include infeasible cases; do not silently drop them or compare
 means over different feasible masks. Gallery masks are repeated interventions,
 not independent places. Fixed-answer risk is not conformal set coverage.
 
+`results/vild_coverage/`, if present, is a metadata-only follow-up, not an image
+inference result. It compares whole 500-m cell removal with uniform entry removal
+matched to exactly the same entry count, using published reference coordinates.
+At 100 m, matched random deletion usually leaves another correct candidate;
+spatial deletion removes all support much more frequently. This diagnoses how
+to construct a missing-coverage intervention. It does not establish model risk,
+novelty, physical accuracy, or natural-weather robustness. No source coordinates,
+archive password, or restricted dataset files are included. ViLD data access:
+https://zenodo.org/records/19223815 ; official instructions:
+https://github.com/Tristan-Amadei/caevl . Cite Amadei et al., Beyond Paired Data:
+Self-Supervised UAV Geo-Localization from Reference Imagery Alone, WACV 2026,
+pp. 7409–7419, https://arxiv.org/abs/2512.02737 .
+
 ## Analysis code and local inputs
 
 `experiments/` is a byte-identical source snapshot with local import dependencies.

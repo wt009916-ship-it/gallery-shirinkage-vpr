@@ -1,0 +1,13 @@
+{
+  "status": "PASS_TWO_GEOMETRY_COMPUTATIONS",
+  "checks": 560,
+  "rows": 480,
+  "source_sha256": {
+    "data/vild_metadata/ViLD_dataset/vild/vild_coordinates__test.csv": "925a92821b614455fe482122ce08bf9c1f7ac68d9a75d2c7b3f349298b2638ce",
+    "data/vild_metadata/ViLD_dataset/vild_09/vild_09_coordinates__test.csv": "2d0da66b5e29aeabdb7458bbe022257bf736ded61fa235fd7769e28fe7a3c6f5"
+  },
+  "config_sha256": "c866030dd00ac26572023cc26a838641dd6891011afe954ee5eed5bc0a69661a",
+  "script_sha256": "6fdcbcf4f8f14e888cc28229eca69d2361b4debb1fe31bb96d2da11855e4b49d",
+  "model_scored": false,
+  "limits": "Same reference coordinates and masks; second calculation validates radius coverage implementation, not dataset truth or scientific novelty."
+}
