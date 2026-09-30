@@ -1,0 +1,23 @@
+{
+  "experiment": "A-HISTORY-ACCESS-001",
+  "purpose": "Post-result engineering deployment and cost audit, not an independent accuracy confirmation",
+  "datasets": ["vild", "vild_09"],
+  "queries_per_dataset": 32,
+  "selection": "Evenly spaced indices among frozen evaluation query list; no selection by correctness",
+  "case_indices": [0, 1, 2, 41, 42],
+  "modes": ["active_only", "cached_history", "archive_recompute"],
+  "warmup_queries_per_case": 2,
+  "timed_repeats": 3,
+  "cpu_blas_threads": 1,
+  "ranking": "FP32 single-query dot products and stable descending full sort; original global gallery ID tie order",
+  "archive_implementation": "One full archived-gallery score vector and sort; active top10 obtained by masking that order; no redundant active-gallery dot product",
+  "numeric_atol": 0.00001,
+  "end_to_end_images_per_dataset": 8,
+  "end_to_end_case_index": 1,
+  "gpu_peak_limit_mib": 6144,
+  "gpu_budget": "16 unique images, batch1, two warmups plus three passes per dataset; existing CAMP no training, expected <5 minutes, peak below 6GiB",
+  "memory": "Explicit ndarray payload and Windows process current/peak working set; process peak includes initialization; neither is total system memory",
+  "cache_scope": "Cache may be used only for an exactly identified previously processed query. Cold keys must fail. Per-query cache does not support unseen queries.",
+  "new_query_scope": "Runtime reads only query descriptors/images, archived gallery descriptors and active IDs. No previous winner/SU, ground-truth locations or correctness labels.",
+  "limits": ["Queries are operationally replayed without historical query state, not newly acquired independent test data", "Warm local timing is descriptive; no hard realtime guarantee", "Exact float near-ties may differ across single-query and original block scoring; all disagreements reported", "Deleted candidates never returned as active predictions", "No thresholds fitted; no original results overwritten"]
+}

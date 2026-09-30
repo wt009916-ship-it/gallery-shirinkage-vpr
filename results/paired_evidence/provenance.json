@@ -1,0 +1,126 @@
+{
+  "status": "DESCRIPTIVE_REANALYSIS_PENDING_REVIEW",
+  "sources": [
+    {
+      "source": "A-U1652-MECH-BUDGET-001",
+      "metrics_sha256": "0f768036e75af4040b274175a8b6ff95e369a28dfe4b4d431a4bc7c232bbfc53",
+      "review_path": "results/A-U1652-MECH-BUDGET-001/review.json",
+      "review_sha256": "a95c71de17ac86604592d99a49288b7b5fa4c9840ba2233895078a7a3292cedf",
+      "review_status": "PASS",
+      "rows": 732,
+      "direct_metrics_hash_in_review": false
+    },
+    {
+      "source": "A-SUES-CONFIRM-001",
+      "metrics_sha256": "43b0f13ed5b08215cabfed3cbc815bb24f2d5c17071897eb04681b4671d78e78",
+      "review_path": "results/A-SUES-CONFIRM-001/review.json",
+      "review_sha256": "3829b93e3372fc8a79a70c549c4f4e63b741a580bda3e076230254945f136284",
+      "review_status": "PASS",
+      "rows": 12200,
+      "direct_metrics_hash_in_review": false
+    },
+    {
+      "source": "A-CAMP-ROBUSTNESS-001/university",
+      "metrics_sha256": "ef36a6b7c7401422a1af0f93e5a32a98ab2e419763ded41e1cb53d291003a2b8",
+      "review_path": "results/A-CAMP-ROBUSTNESS-001/review.json",
+      "review_sha256": "71f5d92cd4f02b5d02b5a2b542a08fd41638ba0e9de7773ccebc100f6b0b706b",
+      "review_status": "PASS",
+      "rows": 2440,
+      "direct_metrics_hash_in_review": false
+    },
+    {
+      "source": "A-CAMP-ROBUSTNESS-001/sues",
+      "metrics_sha256": "255fec6407bd3ebcd9bfc25acc999463e8538e4af9bc993b5aa0e136128af288",
+      "review_path": "results/A-CAMP-ROBUSTNESS-001/review.json",
+      "review_sha256": "71f5d92cd4f02b5d02b5a2b542a08fd41638ba0e9de7773ccebc100f6b0b706b",
+      "review_status": "PASS",
+      "rows": 12200,
+      "direct_metrics_hash_in_review": false
+    },
+    {
+      "source": "A-CROSS-ENCODER-001/university",
+      "metrics_sha256": "5b7ed5b933413c14f27d99b4dc456b8c2e0c07b249e8b2079501acdce7a75942",
+      "review_path": "results/A-CROSS-ENCODER-001/review.json",
+      "review_sha256": "1b187b3e431f8ce256178e8074780be9d7247bb318294096b3301fe7ba8e9ec7",
+      "review_status": "PASS",
+      "rows": 2440,
+      "direct_metrics_hash_in_review": false
+    },
+    {
+      "source": "A-CROSS-ENCODER-001/sues",
+      "metrics_sha256": "e6d9d6b2a4ff9789f5e8cfb86cdba0695afadbc7d634d85f2e19537cba9d4588",
+      "review_path": "results/A-CROSS-ENCODER-001/review.json",
+      "review_sha256": "1b187b3e431f8ce256178e8074780be9d7247bb318294096b3301fe7ba8e9ec7",
+      "review_status": "PASS",
+      "rows": 12200,
+      "direct_metrics_hash_in_review": false
+    },
+    {
+      "source": "A-DENSEUAV-EXTERNAL-001",
+      "metrics_sha256": "34ba065693e88cf49875bd21171881921dca71a88cc77fe55cd1c169207d1ed2",
+      "review_path": "results/A-DENSEUAV-EXTERNAL-001/review.json",
+      "review_sha256": "a278598d8d0e8c2c3a07ccb554bef27f53bef91658a4583dc36bce51b82add92",
+      "review_status": "PASS_INDEPENDENT_RECONSTRUCTION",
+      "rows": 14640,
+      "direct_metrics_hash_in_review": true
+    },
+    {
+      "source": "A-DENSEUAV-VITS-001",
+      "metrics_sha256": "ca5793cc41c9697e92cc5165e9121682ef5d94ae838eadad1adf5a36cb8b58fb",
+      "review_path": "results/A-DENSEUAV-VITS-001/review.json",
+      "review_sha256": "b36749296190e3cad791ee122f124bda62816e24e831ae5bd20af8115e8f1e03",
+      "review_status": "PASS_INDEPENDENT_RECONSTRUCTION",
+      "rows": 14640,
+      "direct_metrics_hash_in_review": true
+    },
+    {
+      "source": "A-VILD-VISUAL-001/vild",
+      "metrics_sha256": "c5a1e6d360920770f7a054c1f77af2813ff511f56e6c74df3020d78ea483c849",
+      "review_path": "results/A-VILD-VISUAL-001/vild/review.json",
+      "review_sha256": "49775542abbe5e76ffe56f2ea050a18fe56f83ca84afd2ee22c6028e72d672f8",
+      "review_status": "PASS_RECONSTRUCTED_COUNTS_COVERAGE_AND_SAMPLED_RANKINGS",
+      "rows": 2187,
+      "direct_metrics_hash_in_review": false
+    },
+    {
+      "source": "A-VILD-VISUAL-001/vild_09",
+      "metrics_sha256": "7909a08b6186a002fcae50f544d126a0a2b4b59b2907522fec13e869964ca353",
+      "review_path": "results/A-VILD-VISUAL-001/vild_09/review.json",
+      "review_sha256": "057e4314f1cdc14d810b2e36267b59aea13817856afab857c04d6ca61c2363bd",
+      "review_status": "PASS_RECONSTRUCTED_COUNTS_COVERAGE_AND_SAMPLED_RANKINGS",
+      "rows": 2187,
+      "direct_metrics_hash_in_review": false
+    },
+    {
+      "source": "results/A-VILD-VISUAL-001/vild/raw_errors.json",
+      "sha256": "8e705e2dd6c8f4d811033f84446f2ffdfcec2500b535b81457b3ff8fc34ade24",
+      "rows": 243,
+      "role": "all-query coverage/fallback diagnostic"
+    },
+    {
+      "source": "results/A-VILD-VISUAL-001/vild_09/raw_errors.json",
+      "sha256": "9158cb056e3a3e6d62a9c350f5b91690f0ac0187ba6d6305c14dabda322bd9f8",
+      "rows": 243,
+      "role": "all-query coverage/fallback diagnostic"
+    },
+    {
+      "source": "results/A-U1652-STAT-001/metrics.json",
+      "sha256": "95f2139efbfff76b79bc3151978c4a55cb679dc2257a8181b28ccbbd04a80d67",
+      "rows": 3294,
+      "review_sha256": "be3c51618da20b90bd86fb5accb92df12a716a394303521c1eecced64fbc141a",
+      "role": "separate legacy threshold/appearance appendix, no common-budget equivalence"
+    }
+  ],
+  "script_sha256": "94d957ea775498a2c02633887dac91c1fe96fda1a9d67b44a9d88455baa87604",
+  "normalization": "No threshold fitting or metric recomputation. All input rows retained; groups never pooled across models, protocols, scopes, folds, conditions or radius.",
+  "inference": "No confidence interval over sites inferred from deletion masks. Original utility gates unchanged.",
+  "cost_source": "A-HISTORY-ACCESS-001 applies only to measured ViLD/CAMP modes; no cost imputed for other models.",
+  "outputs": {
+    "legacy_threshold_rows.json": "95f2139efbfff76b79bc3151978c4a55cb679dc2257a8181b28ccbbd04a80d67",
+    "method_summary.csv": "b29e0bcf4006ffbc8ccc7099dee45fc2450f3836c19b54a44824d7976a1b1986",
+    "normalized.csv": "c298fa6a02ef97e83430f678877fc14afb3a840dd47f6a8191e69e452074b190",
+    "paired_cases.csv": "ce1e364bf1a592ed7b2552b78416354d06505513d04395f6227f8e5b7572ce9f",
+    "paired_summary.json": "66e48cbd4843ccdd32aa69de251cb465cd4c5e11eac91d4ec9e1474497504aaa",
+    "vild_fallback_diagnostics.json": "21b3513770eeedaf794b0e29afd643ffc796703243343aa4ea006c4786f79847"
+  }
+}

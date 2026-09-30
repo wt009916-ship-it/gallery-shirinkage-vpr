@@ -1,0 +1,48 @@
+{
+  "status": "STOP_THIS_RULE_EXPANSION",
+  "primary": [
+    {
+      "source": "A-DENSEUAV-VITS-001",
+      "condition": "plain_same",
+      "fold": "west_to_east",
+      "arm": "target",
+      "fraction": 0.25,
+      "regime": "budget50",
+      "cases": 20,
+      "feasible": 20,
+      "choose_old": 9,
+      "answered": 100,
+      "current_errors": 21.1,
+      "old_errors": 20.7,
+      "chosen_errors": 20.8,
+      "gain_over_current": 0.3,
+      "regret_to_oracle": 0.3,
+      "continuation_pass": false
+    },
+    {
+      "source": "A-DENSEUAV-VITS-001",
+      "condition": "plain_same",
+      "fold": "east_to_west",
+      "arm": "target",
+      "fraction": 0.25,
+      "regime": "budget50",
+      "cases": 20,
+      "feasible": 20,
+      "choose_old": 10,
+      "answered": 288,
+      "current_errors": 25.35,
+      "old_errors": 25.55,
+      "chosen_errors": 25,
+      "gain_over_current": 0.35,
+      "regret_to_oracle": 0.45,
+      "continuation_pass": false
+    }
+  ],
+  "interpretation": "Exploratory preflight only; this rule cannot be advertised as novel or independently validated",
+  "outputs": {
+    "choices.json": "d167c0384ba87253bbaeb8714c758e57c3b1f5d529d263c1ca58e1fe358f6dd2",
+    "outcomes.json": "096341b45a59c9eb5d1b4423f6740c0abb4f08dfe7636a12d9985d210fe78c91",
+    "summary.json": "7ecfca7857981d362df114c82fd2ef155dfe5b3b87632aa83067fbe2fd668dbe"
+  },
+  "freeze_sha256": "631341f2024987071d470a22920ec036e22cc2ce80fedef033d23383b1b6a8d0"
+}

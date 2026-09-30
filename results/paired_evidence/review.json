@@ -1,0 +1,9 @@
+{
+  "status": "PASS_SOURCE_ROWS_AND_PAIRED_CASE_MEMBERSHIP",
+  "normalized_rows": 75866,
+  "paired_rows": 31458,
+  "summary_groups": 2046,
+  "limits": "Descriptive reanalysis of existing tested data, no independent test set or acceptance guarantee",
+  "provenance_sha256": "9f4e56afc9f6b7a3633db1886b09607d6575eace7bc2ada3c447bbd8bd98074a",
+  "reviewer_sha256": "46383433dca74804c51bca141bc88ddf20e6d69e99c9418093df23d92d8985c8"
+}

@@ -1,0 +1,13 @@
+{
+  "purpose": "One-rule exploratory calibration-to-other-region utility check; not a novel algorithm or untouched-data confirmation",
+  "sources": ["A-DENSEUAV-EXTERNAL-001", "A-DENSEUAV-VITS-001"],
+  "conditions": ["plain_same", "old_same", "old_to_plain"],
+  "regimes": ["budget10", "budget25", "budget50"],
+  "rule": "Choose old_su_guard iff both guard policies are feasible in the calibration region and old_su_guard has at least one fewer calibration error; otherwise choose current_su_guard",
+  "calibration_region": "The evaluation region of the reverse fold, which exactly equals the target fold calibration region",
+  "allowed_decision_inputs": ["calibration counts and feasibility", "condition", "requested answer fraction", "deletion case"],
+  "prohibited_decision_inputs": ["target-region errors", "target-region best policy", "target-region confidence calibration by labels"],
+  "primary": {"source": "A-DENSEUAV-VITS-001", "condition": "plain_same", "regime": "budget50", "arm": "target", "fraction": 0.25},
+  "continuation_gate": "Both directions must have all 20 cases feasible; chosen policy versus fixed current_su_guard must reduce mean errors by at least 1 and at least 10 percent in each direction. Otherwise do not expand this same rule into new training.",
+  "limits": ["Both regions and existing results already inspected; exploratory only", "Mask repetitions are dependent, no iid significance claim", "A calibration selector is ordinary policy selection, not itself an innovation", "Archive cost still required to calculate history and guard", "All budgets, conditions and failed cases retained; no tuning after outcomes"]
+}

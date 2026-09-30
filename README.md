@@ -118,3 +118,7 @@ No images, GPS source files, pretrained weights, private correspondence,
 unpublished manuscript, personal account paths or local Git history are shipped.
 Upstream software and data retain their own licenses. No blanket license is
 assigned here to material whose authorship/licensing has not been confirmed.
+
+## Regenerate the paired primary table
+
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md). Run `python -I experiments/regenerate_paired_table.py` with Python 3.10+ and no third-party dependencies. This rebuilds paired means from exported aggregate rows, not raw image inference. `results/history_access/` separates cached-query and archive-recomputation costs. `results/history_selector/` preserves the failed exploratory policy-selection preflight.

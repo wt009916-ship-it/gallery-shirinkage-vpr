@@ -1,0 +1,8 @@
+{
+  "status": "PASS_CHOICES_AND_OUTCOMES",
+  "choices": 2196,
+  "decision": "STOP_THIS_RULE_EXPANSION",
+  "decision_sha256": "5fb9074ce3729b3317f42b3bc0a8308bb6b3b9240a44fd8ea0491f2e2236b1c2",
+  "reviewer_sha256": "682181eac26968943b84c65d8cad9a6c8b55a32a56d4217c57496edc1425c985",
+  "report_sha256": "c49a479106065115c375ee0195026ae63675e6acc2e5d484b174df574d22b02e"
+}
