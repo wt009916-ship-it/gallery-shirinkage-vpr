@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-09-30T09:40:42.040609+00:00",
+  "created_utc": "2026-09-30T13:37:16.254183+00:00",
   "files": {
     "tables/stage14/camp_confidence_bins.csv": {
       "sha256": "7fb366f378a4ef89d15cccd5a88eacda65fcc7d979907e908aa0a1e709fbb1f6",
@@ -201,6 +201,46 @@
       "bytes": 254226,
       "source": "deliverables/gallery_shrinkage_20260930_v6/sues_all_conditions.csv"
     },
+    "experiments/diagnose_vild_transfer.py": {
+      "sha256": "c6110a05bec522826cf44916d8638f87e9a28a7aa355621504416c8f76af6c57",
+      "bytes": 5068,
+      "source": "experiments/diagnose_vild_transfer.py"
+    },
+    "experiments/vild_common.py": {
+      "sha256": "1885bcb4ca0f777888c51d634f7415b3711927589f537566604c7d595a87b235",
+      "bytes": 2331,
+      "source": "experiments/vild_common.py"
+    },
+    "experiments/camp_model.py": {
+      "sha256": "78b8f62da33da4ae83bb7457bd74e682711a82a48bc4a3236405044d4fbf8fc1",
+      "bytes": 3313,
+      "source": "experiments/camp_model.py"
+    },
+    "experiments/rescore_vild_25m.py": {
+      "sha256": "794b0b7f406fe8c32af9b265816f4a65d0503ab720c9650e4688e53665e98e29",
+      "bytes": 5090,
+      "source": "experiments/rescore_vild_25m.py"
+    },
+    "experiments/review_vild.py": {
+      "sha256": "3bd027cfd7565fd26d0ed31fafc1f8ea46e226dda87d77d7ca016937a8b813d8",
+      "bytes": 11212,
+      "source": "experiments/review_vild.py"
+    },
+    "experiments/evaluate_vild.py": {
+      "sha256": "669811aa1236cb2798173e1043c2bca8d943922fd8d2f19f7099cb0d650e01d5",
+      "bytes": 12437,
+      "source": "experiments/evaluate_vild.py"
+    },
+    "experiments/infer_vild.py": {
+      "sha256": "548b86829a4ac5ed67e64ec99db776d1bc19e43baca1490a8acf428140488b7e",
+      "bytes": 7271,
+      "source": "experiments/infer_vild.py"
+    },
+    "experiments/freeze_vild_visual.py": {
+      "sha256": "23d250ed7e4e522d1315771aa63df92c249527168a2bda126a6d97205596daf3",
+      "bytes": 3929,
+      "source": "experiments/freeze_vild_visual.py"
+    },
     "experiments/decompose_denseuav_versions.py": {
       "sha256": "09d593cde1fca6becee885c96aefd0d7ffd2cfe13cc697710a4d6e54f73938f8",
       "bytes": 2972,
@@ -270,11 +310,6 @@
       "sha256": "4edaca4f37f058f4853280b5b40978ffaf0d985f661eadc52078b1997a5ab0fb",
       "bytes": 3885,
       "source": "experiments/infer_denseuav.py"
-    },
-    "experiments/camp_model.py": {
-      "sha256": "78b8f62da33da4ae83bb7457bd74e682711a82a48bc4a3236405044d4fbf8fc1",
-      "bytes": 3313,
-      "source": "experiments/camp_model.py"
     },
     "experiments/infer_camp.py": {
       "sha256": "b3781989cca327ce968a11ce62e01ffacacde84d2f3afaf1f785326d6901c6c2",
@@ -431,14 +466,124 @@
       "bytes": 1318,
       "source": "configs/A-VILD-COVERAGE-001.json"
     },
+    "results/vild_diagnostic/diagnostic.json": {
+      "sha256": "68e5e419ec15ab9d177ac53cfe5dba8e7f5b1956988c15d427fe055fa0687dc9",
+      "bytes": 7940,
+      "source": "results/A-VILD-TRANSFER-DIAGNOSTIC-001/diagnostic.json"
+    },
+    "configs/A-VILD-VISUAL-001.json": {
+      "sha256": "e608cb891337637a7d87d0e33bb1185b2da0e2be942652714b0ae8f0816697ec",
+      "bytes": 2750,
+      "source": "configs/A-VILD-VISUAL-001.json"
+    },
+    "results/vild_visual/vild/metrics.json": {
+      "sha256": "c5a1e6d360920770f7a054c1f77af2813ff511f56e6c74df3020d78ea483c849",
+      "bytes": 2055453,
+      "source": "results/A-VILD-VISUAL-001/vild/metrics.json"
+    },
+    "results/vild_visual/vild/raw_errors.json": {
+      "sha256": "8e705e2dd6c8f4d811033f84446f2ffdfcec2500b535b81457b3ff8fc34ade24",
+      "bytes": 140341,
+      "source": "results/A-VILD-VISUAL-001/vild/raw_errors.json"
+    },
+    "results/vild_visual/vild/thresholds.json": {
+      "sha256": "71225aaf52eb5c7752c522a436dcb1396495456b2fe2e00c9be6944cad9bc73c",
+      "bytes": 63629,
+      "source": "results/A-VILD-VISUAL-001/vild/thresholds.json"
+    },
+    "results/vild_visual/vild/summary.json": {
+      "sha256": "2648b01f88704a0c21dc901de5e70f788ade89cde8ca474cb443150c0c17dd93",
+      "bytes": 70104,
+      "source": "results/A-VILD-VISUAL-001/vild/summary.json"
+    },
+    "results/vild_visual/vild/decision.json": {
+      "sha256": "b048d16c2d1ab77249137b1d252e3301a39f2ded219329f0fb9366e76ed7ce05",
+      "bytes": 1759,
+      "source": "results/A-VILD-VISUAL-001/vild/decision.json"
+    },
+    "results/vild_visual/vild/review.json": {
+      "sha256": "49775542abbe5e76ffe56f2ea050a18fe56f83ca84afd2ee22c6028e72d672f8",
+      "bytes": 530,
+      "source": "results/A-VILD-VISUAL-001/vild/review.json"
+    },
+    "results/vild_visual/vild/evaluation.json": {
+      "sha256": "f2100a402856b0abc9472a0838251220db7ab7bf6efb5d0757dc55344b15a8d1",
+      "bytes": 1091,
+      "source": "results/A-VILD-VISUAL-001/vild/evaluation.json"
+    },
+    "results/vild_visual/vild/inference.json": {
+      "sha256": "8c2c47c1e25a1c2da52efc74244547ef4ac744fa9c96ad799c96d7c610f7e24b",
+      "bytes": 1153,
+      "source": "results/A-VILD-VISUAL-001/vild/inference.json"
+    },
+    "results/vild_visual/vild_09/metrics.json": {
+      "sha256": "7909a08b6186a002fcae50f544d126a0a2b4b59b2907522fec13e869964ca353",
+      "bytes": 2061686,
+      "source": "results/A-VILD-VISUAL-001/vild_09/metrics.json"
+    },
+    "results/vild_visual/vild_09/raw_errors.json": {
+      "sha256": "9158cb056e3a3e6d62a9c350f5b91690f0ac0187ba6d6305c14dabda322bd9f8",
+      "bytes": 141870,
+      "source": "results/A-VILD-VISUAL-001/vild_09/raw_errors.json"
+    },
+    "results/vild_visual/vild_09/thresholds.json": {
+      "sha256": "1562edeaf72077f01ef022b5ec8909b4e645fcb216776658cdedf6743124ad82",
+      "bytes": 63575,
+      "source": "results/A-VILD-VISUAL-001/vild_09/thresholds.json"
+    },
+    "results/vild_visual/vild_09/summary.json": {
+      "sha256": "0fa33a7ba35c7a9842e41fdb0ddc9dce904a98247ab6c138a22369f385cf6fd6",
+      "bytes": 69701,
+      "source": "results/A-VILD-VISUAL-001/vild_09/summary.json"
+    },
+    "results/vild_visual/vild_09/decision.json": {
+      "sha256": "66b861aab6feee3dec6328e71fe61bdfd563a2f35a73274141efc258c2b16ea5",
+      "bytes": 1715,
+      "source": "results/A-VILD-VISUAL-001/vild_09/decision.json"
+    },
+    "results/vild_visual/vild_09/review.json": {
+      "sha256": "057e4314f1cdc14d810b2e36267b59aea13817856afab857c04d6ca61c2363bd",
+      "bytes": 529,
+      "source": "results/A-VILD-VISUAL-001/vild_09/review.json"
+    },
+    "results/vild_visual/vild_09/evaluation.json": {
+      "sha256": "9e0127f49301b606e4fcc97da1f3ed7da02a5503e56fbbcffbb88687a3799a4e",
+      "bytes": 1111,
+      "source": "results/A-VILD-VISUAL-001/vild_09/evaluation.json"
+    },
+    "results/vild_visual/vild_09/inference.json": {
+      "sha256": "cc786c05fdd343e3caf7b66b96f3cefeca23e6806ae120286b08d5b16e32148e",
+      "bytes": 1154,
+      "source": "results/A-VILD-VISUAL-001/vild_09/inference.json"
+    },
+    "results/vild_25m/metrics.json": {
+      "sha256": "fa8462144adfee2fa5b04466df273ec18a92901affdcd386e863ba84f1198bc1",
+      "bytes": 922701,
+      "source": "results/A-VILD-25M-SENSITIVITY-001/metrics.json"
+    },
+    "results/vild_25m/summary.json": {
+      "sha256": "3527750024963a4f2a74174d7e21574cf1521d9fa2d94b94c1fba581913b22fa",
+      "bytes": 19117,
+      "source": "results/A-VILD-25M-SENSITIVITY-001/summary.json"
+    },
+    "results/vild_25m/review.json": {
+      "sha256": "88567772c79bacafc848678be6729d1bc8fa5048e8e710593a28f060f3a6deee",
+      "bytes": 1127,
+      "source": "results/A-VILD-25M-SENSITIVITY-001/review.json"
+    },
+    "configs/A-VILD-25M-SENSITIVITY-001.json": {
+      "sha256": "efb37c1e5ad6f0ec1d71a6cf357dc1b6d840d2cc7f649c080d90d9eb8db317d1",
+      "bytes": 892,
+      "source": "configs/A-VILD-25M-SENSITIVITY-001.json"
+    },
     "README.md": {
-      "sha256": "2f808926cdea1f53751f0dbc15fac5a8867d014e39f972aabafa081e778b5a8c",
-      "bytes": 5635,
+      "sha256": "c7a1ae97e60b14e583d0ef716f537f6885c58fd105ac61e456ba4358b48bd0cc",
+      "bytes": 7592,
       "source": "release-specific original text"
     },
     "verify_artifacts.py": {
-      "sha256": "e6a7559010480f8c6ecbbaa7cf9f42ff052e321f7d5de1ce273cd4225787daf2",
-      "bytes": 991,
+      "sha256": "3bd11ca6b45af0ccb4469915cd2bbf7c91ea53af38eeb059d81117114a28993f",
+      "bytes": 1444,
       "source": "release-specific original text"
     },
     ".gitignore": {
@@ -452,5 +597,5 @@
       "source": "release-specific original text"
     }
   },
-  "publication_status": "LOCAL_READY_NOT_UPLOADED"
+  "publication_status": "EXPORTED_SNAPSHOT_REMOTE_PUBLICATION_VERIFIED_SEPARATELY"
 }

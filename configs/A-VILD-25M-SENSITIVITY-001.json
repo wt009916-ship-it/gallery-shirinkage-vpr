@@ -1,0 +1,12 @@
+{
+  "exp_id": "A-VILD-25M-SENSITIVITY-001",
+  "parent": "A-VILD-VISUAL-001",
+  "timing": "Declared during frozen image extraction, before visual retrieval outcomes were computed or inspected",
+  "reason": "Pinned author TestDataset class declares positive_dist_threshold=[25]; eval.py takes a configurable argument. Do not claim 100m is the author default or claim reproduction of the author's full benchmark.",
+  "source_file": "results/VILD-INTAKE-001/source_review/caevl/evaluation/test_dataset.py",
+  "radius_m": 25,
+  "selection": "Use all parent predictions and the identical accepted-query masks from its 100m rows; no new encoder, reranking, exclusion, threshold fitting or selection",
+  "scope": "Stricter reference-coordinate label sensitivity only, not a 25m-calibrated risk guarantee or CAEVL reproduction",
+  "primary_changed": false,
+  "external_physical_accuracy": "UNKNOWN"
+}

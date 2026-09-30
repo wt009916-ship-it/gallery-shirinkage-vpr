@@ -1,0 +1,248 @@
+{
+  "status": "PASS_ENGINEERING_DIAGNOSTIC_NOT_MODEL_VALIDATION",
+  "post_result": true,
+  "no_threshold_fitting": true,
+  "no_original_protocol_changed": true,
+  "scope": "Same buffered queries; test-only gallery sensitivity is not exact author evaluation. 16 repeated images per flight do not audit every forward pass.",
+  "checkpoint": {
+    "strict_keys": 394,
+    "all_values_equal": true,
+    "checkpoint_sha256": "6bc5b21310c9698588567a52f54c423e9e8f9c7a4473e85e5e462fea1898869b",
+    "source_commit": "b04a9c856711770ed7a72ebf851838329c5e5b8e",
+    "initializer_download_disabled": true,
+    "timm": "0.5.4",
+    "source_checkpoint_mismatch": {
+      "missing_original": [
+        "model_1.pos_scale"
+      ],
+      "unexpected": [],
+      "treatment": "Source-default .6 kept as non-state constant only on unused spatial output; inference equivalence tested separately. Not complete original-training reproduction."
+    }
+  },
+  "results": [
+    {
+      "dataset": "vild",
+      "status": "PASS_SAMPLED_FEATURES_ALL_ORDER_AND_FULL_WINNERS",
+      "sampled_feature_rows": [
+        0,
+        734,
+        1468,
+        2202,
+        2937,
+        3671,
+        4405,
+        5140,
+        5141,
+        13909,
+        22678,
+        31447,
+        40216,
+        48985,
+        57754,
+        66523
+      ],
+      "feature_repeat_max_abs": 0.0,
+      "full_winner_checks": 5141,
+      "published_test_coordinate_checks": 48412,
+      "scores": [
+        {
+          "gallery": "shared_val_test",
+          "entries": 61383,
+          "queries": 3754,
+          "radius_m": 25,
+          "correct": 25,
+          "recall1": 0.006659563132658497,
+          "covered_queries": 2928,
+          "uniform_random_expected_recall": 0.00010946406689681374
+        },
+        {
+          "gallery": "shared_val_test",
+          "entries": 61383,
+          "queries": 3754,
+          "radius_m": 50,
+          "correct": 68,
+          "recall1": 0.018114011720831113,
+          "covered_queries": 3754,
+          "uniform_random_expected_recall": 0.00044066837967689714
+        },
+        {
+          "gallery": "shared_val_test",
+          "entries": 61383,
+          "queries": 3754,
+          "radius_m": 100,
+          "correct": 208,
+          "recall1": 0.0554075652637187,
+          "covered_queries": 3754,
+          "uniform_random_expected_recall": 0.0017760180320959373
+        },
+        {
+          "gallery": "shared_val_test",
+          "entries": 61383,
+          "queries": 3754,
+          "radius_m": 150,
+          "correct": 361,
+          "recall1": 0.0961640916355887,
+          "covered_queries": 3754,
+          "uniform_random_expected_recall": 0.0040447154984897
+        },
+        {
+          "gallery": "test_only",
+          "entries": 44658,
+          "queries": 3754,
+          "radius_m": 25,
+          "correct": 25,
+          "recall1": 0.006659563132658497,
+          "covered_queries": 2928,
+          "uniform_random_expected_recall": 0.00015045977917343183
+        },
+        {
+          "gallery": "test_only",
+          "entries": 44658,
+          "queries": 3754,
+          "radius_m": 50,
+          "correct": 70,
+          "recall1": 0.018646776771443795,
+          "covered_queries": 3754,
+          "uniform_random_expected_recall": 0.0006057044012205423
+        },
+        {
+          "gallery": "test_only",
+          "entries": 44658,
+          "queries": 3754,
+          "radius_m": 100,
+          "correct": 222,
+          "recall1": 0.05913692061800746,
+          "covered_queries": 3754,
+          "uniform_random_expected_recall": 0.0024411598115487683
+        },
+        {
+          "gallery": "test_only",
+          "entries": 44658,
+          "queries": 3754,
+          "radius_m": 150,
+          "correct": 401,
+          "recall1": 0.1068193926478423,
+          "covered_queries": 3754,
+          "uniform_random_expected_recall": 0.005559513893228387
+        }
+      ],
+      "input_sha256": {
+        "data/vild_protocol_001/vild_features.npy": "33755c4208210c608fab00779e5bd56307ba41b79020d0ad35381d99934e9f38",
+        "data/vild_full/ViLD_dataset/vild/vild_coordinates__test.csv": "925a92821b614455fe482122ce08bf9c1f7ac68d9a75d2c7b3f349298b2638ce"
+      }
+    },
+    {
+      "dataset": "vild_09",
+      "status": "PASS_SAMPLED_FEATURES_ALL_ORDER_AND_FULL_WINNERS",
+      "sampled_feature_rows": [
+        0,
+        2420,
+        4841,
+        7262,
+        9682,
+        12103,
+        14524,
+        16945,
+        16946,
+        38409,
+        59872,
+        81335,
+        102798,
+        124261,
+        145724,
+        167188
+      ],
+      "feature_repeat_max_abs": 7.450580596923828e-09,
+      "full_winner_checks": 16946,
+      "published_test_coordinate_checks": 120112,
+      "scores": [
+        {
+          "gallery": "shared_val_test",
+          "entries": 150243,
+          "queries": 12052,
+          "radius_m": 25,
+          "correct": 36,
+          "recall1": 0.002987056090275473,
+          "covered_queries": 9513,
+          "uniform_random_expected_recall": 1.1652215346087894e-05
+        },
+        {
+          "gallery": "shared_val_test",
+          "entries": 150243,
+          "queries": 12052,
+          "radius_m": 50,
+          "correct": 92,
+          "recall1": 0.007633587786259542,
+          "covered_queries": 12052,
+          "uniform_random_expected_recall": 4.642882336345843e-05
+        },
+        {
+          "gallery": "shared_val_test",
+          "entries": 150243,
+          "queries": 12052,
+          "radius_m": 100,
+          "correct": 345,
+          "recall1": 0.02862595419847328,
+          "covered_queries": 12052,
+          "uniform_random_expected_recall": 0.00018668893465271293
+        },
+        {
+          "gallery": "shared_val_test",
+          "entries": 150243,
+          "queries": 12052,
+          "radius_m": 150,
+          "correct": 702,
+          "recall1": 0.058247593760371724,
+          "covered_queries": 12052,
+          "uniform_random_expected_recall": 0.0004202910280809189
+        },
+        {
+          "gallery": "test_only",
+          "entries": 108060,
+          "queries": 12052,
+          "radius_m": 25,
+          "correct": 36,
+          "recall1": 0.002987056090275473,
+          "covered_queries": 9513,
+          "uniform_random_expected_recall": 1.6200849437740915e-05
+        },
+        {
+          "gallery": "test_only",
+          "entries": 108060,
+          "queries": 12052,
+          "radius_m": 50,
+          "correct": 92,
+          "recall1": 0.007633587786259542,
+          "covered_queries": 12052,
+          "uniform_random_expected_recall": 6.455307892463524e-05
+        },
+        {
+          "gallery": "test_only",
+          "entries": 108060,
+          "queries": 12052,
+          "radius_m": 100,
+          "correct": 346,
+          "recall1": 0.02870892797875871,
+          "covered_queries": 12052,
+          "uniform_random_expected_recall": 0.0002595660337685318
+        },
+        {
+          "gallery": "test_only",
+          "entries": 108060,
+          "queries": 12052,
+          "radius_m": 150,
+          "correct": 704,
+          "recall1": 0.058413541320942584,
+          "covered_queries": 12052,
+          "uniform_random_expected_recall": 0.000584358550175472
+        }
+      ],
+      "input_sha256": {
+        "data/vild_protocol_001/vild_09_features.npy": "5f91db6173dc009c34e8b1039bd7d9d00ee0364655d53d59d554b4560871b607",
+        "data/vild_full/ViLD_dataset/vild_09/vild_09_coordinates__test.csv": "2d0da66b5e29aeabdb7458bbe022257bf736ded61fa235fd7769e28fe7a3c6f5"
+      }
+    }
+  ],
+  "seconds": 261.8441333999999,
+  "script_sha256": "c6110a05bec522826cf44916d8638f87e9a28a7aa355621504416c8f76af6c57"
+}

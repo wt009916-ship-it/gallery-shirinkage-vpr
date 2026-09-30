@@ -12,4 +12,13 @@ for p in (R/'tables').rglob('*.csv'):
     a,b,c=map(lambda k:float(r[k]),keys);assert math.isclose(a,b+c,rel_tol=1e-9,abs_tol=1e-7),(p.name,r);checks+=1
   if all(r.get(k,'') not in ('','None','nan') for k in ['min_errors','errors','max_errors']):
    assert float(r['min_errors'])<=float(r['errors'])<=float(r['max_errors']),(p.name,r);checks+=1
+for folder in ['vild_visual/vild','vild_visual/vild_09','vild_25m']:
+ p=R/'results'/folder/'metrics.json'
+ if p.exists():
+  for r in json.loads(p.read_text()):
+   assert r['answered']==r['correct']+r['errors']
+   assert r['errors']==r['created_errors']+r['inherited_errors']
+   assert r['created_errors']==r['created_coverage_present']+r['created_coverage_absent']
+   if r['method'].endswith('guard'):assert r['created_errors']==0
+   checks+=4
 print(json.dumps({'status':'PASS','checks':checks,'files':len(m['files']),'scope':'hashes, count arithmetic and tie bounds only'}))

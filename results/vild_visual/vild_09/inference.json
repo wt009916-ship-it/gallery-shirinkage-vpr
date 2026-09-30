@@ -1,0 +1,27 @@
+{
+  "status": "PASS_FROZEN_INFERENCE",
+  "images": 167189,
+  "seconds": 3425.954440200001,
+  "peak_allocated_mib": 1128.732421875,
+  "repeat_max_abs": 6.705522537231445e-08,
+  "load": {
+    "strict_keys": 394,
+    "all_values_equal": true,
+    "checkpoint_sha256": "6bc5b21310c9698588567a52f54c423e9e8f9c7a4473e85e5e462fea1898869b",
+    "source_commit": "b04a9c856711770ed7a72ebf851838329c5e5b8e",
+    "initializer_download_disabled": true,
+    "timm": "0.5.4",
+    "source_checkpoint_mismatch": {
+      "missing_original": [
+        "model_1.pos_scale"
+      ],
+      "unexpected": [],
+      "treatment": "Source-default .6 kept as non-state constant only on unused spatial output; inference equivalence tested separately. Not complete original-training reproduction."
+    }
+  },
+  "freeze_sha256": "5d5a1de1eabcc4afec38c27c160c2894f96a1fb5f3e079b327fe8fb017870888",
+  "features_sha256": "5f91db6173dc009c34e8b1039bd7d9d00ee0364655d53d59d554b4560871b607",
+  "image_manifest_sha256": "171547bf2ec89c64a2c9442744a4b7a2a660de5707cf3497f46b59ab93ebe0dc",
+  "exact_input_byte_unique": 167144,
+  "cross_split_query_duplicates": 0
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_IDENTICAL_DECISIONS_STRICTER_LABEL_RESCORING",
+  "checks": 7452,
+  "rows": 1458,
+  "input_sha256": {
+    "configs/A-VILD-25M-SENSITIVITY-001.json": "efb37c1e5ad6f0ec1d71a6cf357dc1b6d840d2cc7f649c080d90d9eb8db317d1",
+    "results/VILD-INTAKE-001/source_review/caevl/evaluation/test_dataset.py": "11406a21ddd5d821370ac5d9a44f5a09f6033df75bf6302c7b8b37659510f491",
+    "experiments/rescore_vild_25m.py": "794b0b7f406fe8c32af9b265816f4a65d0503ab720c9650e4688e53665e98e29",
+    "results/A-VILD-VISUAL-001/vild/review.json": "49775542abbe5e76ffe56f2ea050a18fe56f83ca84afd2ee22c6028e72d672f8",
+    "results/A-VILD-VISUAL-001/vild_09/review.json": "057e4314f1cdc14d810b2e36267b59aea13817856afab857c04d6ca61c2363bd"
+  },
+  "output_sha256": {
+    "metrics.json": "fa8462144adfee2fa5b04466df273ec18a92901affdcd386e863ba84f1198bc1",
+    "summary.json": "3527750024963a4f2a74174d7e21574cf1521d9fa2d94b94c1fba581913b22fa"
+  },
+  "new_thresholds": 0,
+  "new_predictions": 0,
+  "primary_changed": false,
+  "label_scope": "25m in published reference coordinates; parent thresholds were fitted at 100m"
+}

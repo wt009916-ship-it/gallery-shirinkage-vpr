@@ -1,0 +1,11 @@
+{
+  "status": "PASS_RECONSTRUCTED_COUNTS_COVERAGE_AND_SAMPLED_RANKINGS",
+  "checks": 54406,
+  "metric_rows": 2187,
+  "rank_queries_checked": 8,
+  "rank_cases_per_query": 81,
+  "coverage_all_queries_and_cases": true,
+  "seconds": 33.74837050000133,
+  "scope": "All acceptance/count/summary reconstruction; sampled direct ranking, not every full dot product recomputed; no physical-coordinate or risk-guarantee certification.",
+  "evaluation_sha256": "9e0127f49301b606e4fcc97da1f3ed7da02a5503e56fbbcffbb88687a3799a4e"
+}

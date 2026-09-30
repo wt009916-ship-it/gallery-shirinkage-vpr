@@ -1,0 +1,16 @@
+{
+  "status": "EXECUTED_PENDING_REVIEW",
+  "rows": 2187,
+  "thresholds": 243,
+  "historical_cache_bytes": 184650,
+  "historical_payload_bytes_without_query_mapping": 203352,
+  "cache_scope": "All calibration and evaluation queries, includes stored query-path mapping. Requires same-query history; no system memory savings claim.",
+  "output_sha256": {
+    "results/A-VILD-VISUAL-001/vild_09/metrics.json": "7909a08b6186a002fcae50f544d126a0a2b4b59b2907522fec13e869964ca353",
+    "results/A-VILD-VISUAL-001/vild_09/raw_errors.json": "9158cb056e3a3e6d62a9c350f5b91690f0ac0187ba6d6305c14dabda322bd9f8",
+    "results/A-VILD-VISUAL-001/vild_09/thresholds.json": "1562edeaf72077f01ef022b5ec8909b4e645fcb216776658cdedf6743124ad82",
+    "results/A-VILD-VISUAL-001/vild_09/summary.json": "0fa33a7ba35c7a9842e41fdb0ddc9dce904a98247ab6c138a22369f385cf6fd6",
+    "results/A-VILD-VISUAL-001/vild_09/decision.json": "66b861aab6feee3dec6328e71fe61bdfd563a2f35a73274141efc258c2b16ea5",
+    "data/vild_protocol_001/vild_09_acceptance.npz": "98658de21a9ad926756382b769b49a30b965c3eb01a437c2311af01022567749"
+  }
+}

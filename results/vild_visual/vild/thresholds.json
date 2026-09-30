@@ -1,0 +1,2432 @@
+[
+  {
+    "case_id": "full",
+    "arm": "full",
+    "target_fraction": 0.0,
+    "seed": 0,
+    "removed_entries": 0,
+    "actual_entry_fraction": 0.0,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "full",
+    "arm": "full",
+    "target_fraction": 0.0,
+    "seed": 0,
+    "removed_entries": 0,
+    "actual_entry_fraction": 0.0,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "full",
+    "arm": "full",
+    "target_fraction": 0.0,
+    "seed": 0,
+    "removed_entries": 0,
+    "actual_entry_fraction": 0.0,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091700",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091700,
+    "removed_entries": 15552,
+    "actual_entry_fraction": 0.25336005082840524,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091700",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091700,
+    "removed_entries": 15552,
+    "actual_entry_fraction": 0.25336005082840524,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091700",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091700,
+    "removed_entries": 15552,
+    "actual_entry_fraction": 0.25336005082840524,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091700",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091700,
+    "removed_entries": 15552,
+    "actual_entry_fraction": 0.25336005082840524,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091700",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091700,
+    "removed_entries": 15552,
+    "actual_entry_fraction": 0.25336005082840524,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091700",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091700,
+    "removed_entries": 15552,
+    "actual_entry_fraction": 0.25336005082840524,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091701",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091701,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091701",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091701,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091701",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091701,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091701",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091701,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091701",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091701,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091701",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091701,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091702",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091702,
+    "removed_entries": 15705,
+    "actual_entry_fraction": 0.25585259762474954,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091702",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091702,
+    "removed_entries": 15705,
+    "actual_entry_fraction": 0.25585259762474954,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091702",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091702,
+    "removed_entries": 15705,
+    "actual_entry_fraction": 0.25585259762474954,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091702",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091702,
+    "removed_entries": 15705,
+    "actual_entry_fraction": 0.25585259762474954,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091702",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091702,
+    "removed_entries": 15705,
+    "actual_entry_fraction": 0.25585259762474954,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091702",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091702,
+    "removed_entries": 15705,
+    "actual_entry_fraction": 0.25585259762474954,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091703",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091703,
+    "removed_entries": 15471,
+    "actual_entry_fraction": 0.2520404672303406,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091703",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091703,
+    "removed_entries": 15471,
+    "actual_entry_fraction": 0.2520404672303406,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091703",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091703,
+    "removed_entries": 15471,
+    "actual_entry_fraction": 0.2520404672303406,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091703",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091703,
+    "removed_entries": 15471,
+    "actual_entry_fraction": 0.2520404672303406,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091703",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091703,
+    "removed_entries": 15471,
+    "actual_entry_fraction": 0.2520404672303406,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091703",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091703,
+    "removed_entries": 15471,
+    "actual_entry_fraction": 0.2520404672303406,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091704",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091704,
+    "removed_entries": 16947,
+    "actual_entry_fraction": 0.27608621279507356,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091704",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091704,
+    "removed_entries": 16947,
+    "actual_entry_fraction": 0.27608621279507356,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091704",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091704,
+    "removed_entries": 16947,
+    "actual_entry_fraction": 0.27608621279507356,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091704",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091704,
+    "removed_entries": 16947,
+    "actual_entry_fraction": 0.27608621279507356,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091704",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091704,
+    "removed_entries": 16947,
+    "actual_entry_fraction": 0.27608621279507356,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091704",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091704,
+    "removed_entries": 16947,
+    "actual_entry_fraction": 0.27608621279507356,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091705",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091705,
+    "removed_entries": 15720,
+    "actual_entry_fraction": 0.25609696495772444,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091705",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091705,
+    "removed_entries": 15720,
+    "actual_entry_fraction": 0.25609696495772444,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091705",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091705,
+    "removed_entries": 15720,
+    "actual_entry_fraction": 0.25609696495772444,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091705",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091705,
+    "removed_entries": 15720,
+    "actual_entry_fraction": 0.25609696495772444,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091705",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091705,
+    "removed_entries": 15720,
+    "actual_entry_fraction": 0.25609696495772444,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091705",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091705,
+    "removed_entries": 15720,
+    "actual_entry_fraction": 0.25609696495772444,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091706",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091706,
+    "removed_entries": 15534,
+    "actual_entry_fraction": 0.25306681002883535,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091706",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091706,
+    "removed_entries": 15534,
+    "actual_entry_fraction": 0.25306681002883535,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091706",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091706,
+    "removed_entries": 15534,
+    "actual_entry_fraction": 0.25306681002883535,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091706",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091706,
+    "removed_entries": 15534,
+    "actual_entry_fraction": 0.25306681002883535,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091706",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091706,
+    "removed_entries": 15534,
+    "actual_entry_fraction": 0.25306681002883535,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091706",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091706,
+    "removed_entries": 15534,
+    "actual_entry_fraction": 0.25306681002883535,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091707",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091707,
+    "removed_entries": 15492,
+    "actual_entry_fraction": 0.25238258149650555,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091707",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091707,
+    "removed_entries": 15492,
+    "actual_entry_fraction": 0.25238258149650555,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091707",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091707,
+    "removed_entries": 15492,
+    "actual_entry_fraction": 0.25238258149650555,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091707",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091707,
+    "removed_entries": 15492,
+    "actual_entry_fraction": 0.25238258149650555,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091707",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091707,
+    "removed_entries": 15492,
+    "actual_entry_fraction": 0.25238258149650555,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091707",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091707,
+    "removed_entries": 15492,
+    "actual_entry_fraction": 0.25238258149650555,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091708",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091708,
+    "removed_entries": 15891,
+    "actual_entry_fraction": 0.25888275255363863,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091708",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091708,
+    "removed_entries": 15891,
+    "actual_entry_fraction": 0.25888275255363863,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091708",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091708,
+    "removed_entries": 15891,
+    "actual_entry_fraction": 0.25888275255363863,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091708",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091708,
+    "removed_entries": 15891,
+    "actual_entry_fraction": 0.25888275255363863,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091708",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091708,
+    "removed_entries": 15891,
+    "actual_entry_fraction": 0.25888275255363863,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091708",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091708,
+    "removed_entries": 15891,
+    "actual_entry_fraction": 0.25888275255363863,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091709",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091709,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091709",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091709,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091709",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091709,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091709",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091709,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091709",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091709,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091709",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091709,
+    "removed_entries": 15579,
+    "actual_entry_fraction": 0.25379991202776014,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091710",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091710,
+    "removed_entries": 15369,
+    "actual_entry_fraction": 0.25037876936611114,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091710",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091710,
+    "removed_entries": 15369,
+    "actual_entry_fraction": 0.25037876936611114,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091710",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091710,
+    "removed_entries": 15369,
+    "actual_entry_fraction": 0.25037876936611114,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091710",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091710,
+    "removed_entries": 15369,
+    "actual_entry_fraction": 0.25037876936611114,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091710",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091710,
+    "removed_entries": 15369,
+    "actual_entry_fraction": 0.25037876936611114,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091710",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091710,
+    "removed_entries": 15369,
+    "actual_entry_fraction": 0.25037876936611114,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091711",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091711,
+    "removed_entries": 15405,
+    "actual_entry_fraction": 0.25096525096525096,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091711",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091711,
+    "removed_entries": 15405,
+    "actual_entry_fraction": 0.25096525096525096,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091711",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091711,
+    "removed_entries": 15405,
+    "actual_entry_fraction": 0.25096525096525096,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091711",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091711,
+    "removed_entries": 15405,
+    "actual_entry_fraction": 0.25096525096525096,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091711",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091711,
+    "removed_entries": 15405,
+    "actual_entry_fraction": 0.25096525096525096,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091711",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091711,
+    "removed_entries": 15405,
+    "actual_entry_fraction": 0.25096525096525096,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091712",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091712,
+    "removed_entries": 15714,
+    "actual_entry_fraction": 0.25599921802453446,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091712",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091712,
+    "removed_entries": 15714,
+    "actual_entry_fraction": 0.25599921802453446,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091712",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091712,
+    "removed_entries": 15714,
+    "actual_entry_fraction": 0.25599921802453446,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091712",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091712,
+    "removed_entries": 15714,
+    "actual_entry_fraction": 0.25599921802453446,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091712",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091712,
+    "removed_entries": 15714,
+    "actual_entry_fraction": 0.25599921802453446,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091712",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091712,
+    "removed_entries": 15714,
+    "actual_entry_fraction": 0.25599921802453446,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091713",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091713,
+    "removed_entries": 16623,
+    "actual_entry_fraction": 0.2708078784028151,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091713",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091713,
+    "removed_entries": 16623,
+    "actual_entry_fraction": 0.2708078784028151,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091713",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091713,
+    "removed_entries": 16623,
+    "actual_entry_fraction": 0.2708078784028151,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091713",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091713,
+    "removed_entries": 16623,
+    "actual_entry_fraction": 0.2708078784028151,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091713",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091713,
+    "removed_entries": 16623,
+    "actual_entry_fraction": 0.2708078784028151,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091713",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091713,
+    "removed_entries": 16623,
+    "actual_entry_fraction": 0.2708078784028151,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091714",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091714,
+    "removed_entries": 16008,
+    "actual_entry_fraction": 0.26078881775084306,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091714",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091714,
+    "removed_entries": 16008,
+    "actual_entry_fraction": 0.26078881775084306,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091714",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091714,
+    "removed_entries": 16008,
+    "actual_entry_fraction": 0.26078881775084306,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091714",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091714,
+    "removed_entries": 16008,
+    "actual_entry_fraction": 0.26078881775084306,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091714",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091714,
+    "removed_entries": 16008,
+    "actual_entry_fraction": 0.26078881775084306,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091714",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091714,
+    "removed_entries": 16008,
+    "actual_entry_fraction": 0.26078881775084306,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091715",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091715,
+    "removed_entries": 15528,
+    "actual_entry_fraction": 0.2529690630956454,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091715",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091715,
+    "removed_entries": 15528,
+    "actual_entry_fraction": 0.2529690630956454,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091715",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091715,
+    "removed_entries": 15528,
+    "actual_entry_fraction": 0.2529690630956454,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091715",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091715,
+    "removed_entries": 15528,
+    "actual_entry_fraction": 0.2529690630956454,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091715",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091715,
+    "removed_entries": 15528,
+    "actual_entry_fraction": 0.2529690630956454,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091715",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091715,
+    "removed_entries": 15528,
+    "actual_entry_fraction": 0.2529690630956454,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091716",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091716,
+    "removed_entries": 16263,
+    "actual_entry_fraction": 0.26494306241141685,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091716",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091716,
+    "removed_entries": 16263,
+    "actual_entry_fraction": 0.26494306241141685,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091716",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091716,
+    "removed_entries": 16263,
+    "actual_entry_fraction": 0.26494306241141685,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091716",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091716,
+    "removed_entries": 16263,
+    "actual_entry_fraction": 0.26494306241141685,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091716",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091716,
+    "removed_entries": 16263,
+    "actual_entry_fraction": 0.26494306241141685,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091716",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091716,
+    "removed_entries": 16263,
+    "actual_entry_fraction": 0.26494306241141685,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091717",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091717,
+    "removed_entries": 16137,
+    "actual_entry_fraction": 0.26289037681442745,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091717",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091717,
+    "removed_entries": 16137,
+    "actual_entry_fraction": 0.26289037681442745,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091717",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091717,
+    "removed_entries": 16137,
+    "actual_entry_fraction": 0.26289037681442745,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091717",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091717,
+    "removed_entries": 16137,
+    "actual_entry_fraction": 0.26289037681442745,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091717",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091717,
+    "removed_entries": 16137,
+    "actual_entry_fraction": 0.26289037681442745,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091717",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091717,
+    "removed_entries": 16137,
+    "actual_entry_fraction": 0.26289037681442745,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091718",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091718,
+    "removed_entries": 16047,
+    "actual_entry_fraction": 0.26142417281657787,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091718",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091718,
+    "removed_entries": 16047,
+    "actual_entry_fraction": 0.26142417281657787,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091718",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091718,
+    "removed_entries": 16047,
+    "actual_entry_fraction": 0.26142417281657787,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091718",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091718,
+    "removed_entries": 16047,
+    "actual_entry_fraction": 0.26142417281657787,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091718",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091718,
+    "removed_entries": 16047,
+    "actual_entry_fraction": 0.26142417281657787,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091718",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091718,
+    "removed_entries": 16047,
+    "actual_entry_fraction": 0.26142417281657787,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091719",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091719,
+    "removed_entries": 15387,
+    "actual_entry_fraction": 0.250672010165681,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091719",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091719,
+    "removed_entries": 15387,
+    "actual_entry_fraction": 0.250672010165681,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_25_30091719",
+    "arm": "spatial",
+    "target_fraction": 0.25,
+    "seed": 30091719,
+    "removed_entries": 15387,
+    "actual_entry_fraction": 0.250672010165681,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091719",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091719,
+    "removed_entries": 15387,
+    "actual_entry_fraction": 0.250672010165681,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091719",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091719,
+    "removed_entries": 15387,
+    "actual_entry_fraction": 0.250672010165681,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_25_30091719",
+    "arm": "matched_random",
+    "target_fraction": 0.25,
+    "seed": 30091719,
+    "removed_entries": 15387,
+    "actual_entry_fraction": 0.250672010165681,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091700",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091700,
+    "removed_entries": 30933,
+    "actual_entry_fraction": 0.5039343140608964,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091700",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091700,
+    "removed_entries": 30933,
+    "actual_entry_fraction": 0.5039343140608964,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091700",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091700,
+    "removed_entries": 30933,
+    "actual_entry_fraction": 0.5039343140608964,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091700",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091700,
+    "removed_entries": 30933,
+    "actual_entry_fraction": 0.5039343140608964,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091700",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091700,
+    "removed_entries": 30933,
+    "actual_entry_fraction": 0.5039343140608964,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091700",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091700,
+    "removed_entries": 30933,
+    "actual_entry_fraction": 0.5039343140608964,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091701",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091701,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091701",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091701,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091701",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091701,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091701",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091701,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091701",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091701,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091701",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091701,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091702",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091702,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091702",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091702,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091702",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091702,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091702",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091702,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091702",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091702,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091702",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091702,
+    "removed_entries": 30726,
+    "actual_entry_fraction": 0.5005620448658423,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091703",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091703,
+    "removed_entries": 32028,
+    "actual_entry_fraction": 0.5217731293680661,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091703",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091703,
+    "removed_entries": 32028,
+    "actual_entry_fraction": 0.5217731293680661,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091703",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091703,
+    "removed_entries": 32028,
+    "actual_entry_fraction": 0.5217731293680661,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091703",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091703,
+    "removed_entries": 32028,
+    "actual_entry_fraction": 0.5217731293680661,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091703",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091703,
+    "removed_entries": 32028,
+    "actual_entry_fraction": 0.5217731293680661,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091703",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091703,
+    "removed_entries": 32028,
+    "actual_entry_fraction": 0.5217731293680661,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091704",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091704,
+    "removed_entries": 30699,
+    "actual_entry_fraction": 0.5001221836664874,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091704",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091704,
+    "removed_entries": 30699,
+    "actual_entry_fraction": 0.5001221836664874,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091704",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091704,
+    "removed_entries": 30699,
+    "actual_entry_fraction": 0.5001221836664874,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091704",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091704,
+    "removed_entries": 30699,
+    "actual_entry_fraction": 0.5001221836664874,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091704",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091704,
+    "removed_entries": 30699,
+    "actual_entry_fraction": 0.5001221836664874,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091704",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091704,
+    "removed_entries": 30699,
+    "actual_entry_fraction": 0.5001221836664874,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091705",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091705,
+    "removed_entries": 30789,
+    "actual_entry_fraction": 0.501588387664337,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091705",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091705,
+    "removed_entries": 30789,
+    "actual_entry_fraction": 0.501588387664337,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091705",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091705,
+    "removed_entries": 30789,
+    "actual_entry_fraction": 0.501588387664337,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091705",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091705,
+    "removed_entries": 30789,
+    "actual_entry_fraction": 0.501588387664337,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091705",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091705,
+    "removed_entries": 30789,
+    "actual_entry_fraction": 0.501588387664337,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091705",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091705,
+    "removed_entries": 30789,
+    "actual_entry_fraction": 0.501588387664337,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091706",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091706,
+    "removed_entries": 32244,
+    "actual_entry_fraction": 0.525292018962905,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091706",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091706,
+    "removed_entries": 32244,
+    "actual_entry_fraction": 0.525292018962905,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091706",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091706,
+    "removed_entries": 32244,
+    "actual_entry_fraction": 0.525292018962905,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091706",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091706,
+    "removed_entries": 32244,
+    "actual_entry_fraction": 0.525292018962905,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091706",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091706,
+    "removed_entries": 32244,
+    "actual_entry_fraction": 0.525292018962905,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091706",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091706,
+    "removed_entries": 32244,
+    "actual_entry_fraction": 0.525292018962905,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091707",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091707,
+    "removed_entries": 31890,
+    "actual_entry_fraction": 0.5195249499046968,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091707",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091707,
+    "removed_entries": 31890,
+    "actual_entry_fraction": 0.5195249499046968,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091707",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091707,
+    "removed_entries": 31890,
+    "actual_entry_fraction": 0.5195249499046968,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091707",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091707,
+    "removed_entries": 31890,
+    "actual_entry_fraction": 0.5195249499046968,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091707",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091707,
+    "removed_entries": 31890,
+    "actual_entry_fraction": 0.5195249499046968,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091707",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091707,
+    "removed_entries": 31890,
+    "actual_entry_fraction": 0.5195249499046968,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091708",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091708,
+    "removed_entries": 30783,
+    "actual_entry_fraction": 0.501490640731147,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091708",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091708,
+    "removed_entries": 30783,
+    "actual_entry_fraction": 0.501490640731147,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091708",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091708,
+    "removed_entries": 30783,
+    "actual_entry_fraction": 0.501490640731147,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091708",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091708,
+    "removed_entries": 30783,
+    "actual_entry_fraction": 0.501490640731147,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091708",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091708,
+    "removed_entries": 30783,
+    "actual_entry_fraction": 0.501490640731147,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091708",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091708,
+    "removed_entries": 30783,
+    "actual_entry_fraction": 0.501490640731147,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091709",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091709,
+    "removed_entries": 30723,
+    "actual_entry_fraction": 0.5005131713992473,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091709",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091709,
+    "removed_entries": 30723,
+    "actual_entry_fraction": 0.5005131713992473,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091709",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091709,
+    "removed_entries": 30723,
+    "actual_entry_fraction": 0.5005131713992473,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091709",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091709,
+    "removed_entries": 30723,
+    "actual_entry_fraction": 0.5005131713992473,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091709",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091709,
+    "removed_entries": 30723,
+    "actual_entry_fraction": 0.5005131713992473,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091709",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091709,
+    "removed_entries": 30723,
+    "actual_entry_fraction": 0.5005131713992473,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091710",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091710,
+    "removed_entries": 30816,
+    "actual_entry_fraction": 0.5020282488636919,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091710",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091710,
+    "removed_entries": 30816,
+    "actual_entry_fraction": 0.5020282488636919,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091710",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091710,
+    "removed_entries": 30816,
+    "actual_entry_fraction": 0.5020282488636919,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091710",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091710,
+    "removed_entries": 30816,
+    "actual_entry_fraction": 0.5020282488636919,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091710",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091710,
+    "removed_entries": 30816,
+    "actual_entry_fraction": 0.5020282488636919,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091710",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091710,
+    "removed_entries": 30816,
+    "actual_entry_fraction": 0.5020282488636919,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091711",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091711,
+    "removed_entries": 30822,
+    "actual_entry_fraction": 0.5021259957968819,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091711",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091711,
+    "removed_entries": 30822,
+    "actual_entry_fraction": 0.5021259957968819,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091711",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091711,
+    "removed_entries": 30822,
+    "actual_entry_fraction": 0.5021259957968819,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091711",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091711,
+    "removed_entries": 30822,
+    "actual_entry_fraction": 0.5021259957968819,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091711",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091711,
+    "removed_entries": 30822,
+    "actual_entry_fraction": 0.5021259957968819,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091711",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091711,
+    "removed_entries": 30822,
+    "actual_entry_fraction": 0.5021259957968819,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091712",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091712,
+    "removed_entries": 31176,
+    "actual_entry_fraction": 0.5078930648550902,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091712",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091712,
+    "removed_entries": 31176,
+    "actual_entry_fraction": 0.5078930648550902,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091712",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091712,
+    "removed_entries": 31176,
+    "actual_entry_fraction": 0.5078930648550902,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091712",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091712,
+    "removed_entries": 31176,
+    "actual_entry_fraction": 0.5078930648550902,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091712",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091712,
+    "removed_entries": 31176,
+    "actual_entry_fraction": 0.5078930648550902,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091712",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091712,
+    "removed_entries": 31176,
+    "actual_entry_fraction": 0.5078930648550902,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091713",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091713,
+    "removed_entries": 30834,
+    "actual_entry_fraction": 0.5023214896632618,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091713",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091713,
+    "removed_entries": 30834,
+    "actual_entry_fraction": 0.5023214896632618,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091713",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091713,
+    "removed_entries": 30834,
+    "actual_entry_fraction": 0.5023214896632618,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091713",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091713,
+    "removed_entries": 30834,
+    "actual_entry_fraction": 0.5023214896632618,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091713",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091713,
+    "removed_entries": 30834,
+    "actual_entry_fraction": 0.5023214896632618,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091713",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091713,
+    "removed_entries": 30834,
+    "actual_entry_fraction": 0.5023214896632618,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091714",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091714,
+    "removed_entries": 30948,
+    "actual_entry_fraction": 0.5041786813938712,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091714",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091714,
+    "removed_entries": 30948,
+    "actual_entry_fraction": 0.5041786813938712,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091714",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091714,
+    "removed_entries": 30948,
+    "actual_entry_fraction": 0.5041786813938712,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091714",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091714,
+    "removed_entries": 30948,
+    "actual_entry_fraction": 0.5041786813938712,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091714",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091714,
+    "removed_entries": 30948,
+    "actual_entry_fraction": 0.5041786813938712,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091714",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091714,
+    "removed_entries": 30948,
+    "actual_entry_fraction": 0.5041786813938712,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091715",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091715,
+    "removed_entries": 30903,
+    "actual_entry_fraction": 0.5034455793949465,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091715",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091715,
+    "removed_entries": 30903,
+    "actual_entry_fraction": 0.5034455793949465,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091715",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091715,
+    "removed_entries": 30903,
+    "actual_entry_fraction": 0.5034455793949465,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091715",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091715,
+    "removed_entries": 30903,
+    "actual_entry_fraction": 0.5034455793949465,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091715",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091715,
+    "removed_entries": 30903,
+    "actual_entry_fraction": 0.5034455793949465,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091715",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091715,
+    "removed_entries": 30903,
+    "actual_entry_fraction": 0.5034455793949465,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091716",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091716,
+    "removed_entries": 31377,
+    "actual_entry_fraction": 0.5111675871169542,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091716",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091716,
+    "removed_entries": 31377,
+    "actual_entry_fraction": 0.5111675871169542,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091716",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091716,
+    "removed_entries": 31377,
+    "actual_entry_fraction": 0.5111675871169542,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091716",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091716,
+    "removed_entries": 31377,
+    "actual_entry_fraction": 0.5111675871169542,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091716",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091716,
+    "removed_entries": 31377,
+    "actual_entry_fraction": 0.5111675871169542,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091716",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091716,
+    "removed_entries": 31377,
+    "actual_entry_fraction": 0.5111675871169542,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091717",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091717,
+    "removed_entries": 31017,
+    "actual_entry_fraction": 0.5053027711255559,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091717",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091717,
+    "removed_entries": 31017,
+    "actual_entry_fraction": 0.5053027711255559,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091717",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091717,
+    "removed_entries": 31017,
+    "actual_entry_fraction": 0.5053027711255559,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091717",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091717,
+    "removed_entries": 31017,
+    "actual_entry_fraction": 0.5053027711255559,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091717",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091717,
+    "removed_entries": 31017,
+    "actual_entry_fraction": 0.5053027711255559,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091717",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091717,
+    "removed_entries": 31017,
+    "actual_entry_fraction": 0.5053027711255559,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091718",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091718,
+    "removed_entries": 30729,
+    "actual_entry_fraction": 0.5006109183324373,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091718",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091718,
+    "removed_entries": 30729,
+    "actual_entry_fraction": 0.5006109183324373,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091718",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091718,
+    "removed_entries": 30729,
+    "actual_entry_fraction": 0.5006109183324373,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091718",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091718,
+    "removed_entries": 30729,
+    "actual_entry_fraction": 0.5006109183324373,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091718",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091718,
+    "removed_entries": 30729,
+    "actual_entry_fraction": 0.5006109183324373,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091718",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091718,
+    "removed_entries": 30729,
+    "actual_entry_fraction": 0.5006109183324373,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091719",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091719,
+    "removed_entries": 30735,
+    "actual_entry_fraction": 0.5007086652656273,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091719",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091719,
+    "removed_entries": 30735,
+    "actual_entry_fraction": 0.5007086652656273,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "spatial_50_30091719",
+    "arm": "spatial",
+    "target_fraction": 0.5,
+    "seed": 30091719,
+    "removed_entries": 30735,
+    "actual_entry_fraction": 0.5007086652656273,
+    "method": "old_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091719",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091719,
+    "removed_entries": 30735,
+    "actual_entry_fraction": 0.5007086652656273,
+    "method": "current_su",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091719",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091719,
+    "removed_entries": 30735,
+    "actual_entry_fraction": 0.5007086652656273,
+    "method": "current_su_guard",
+    "fit": null
+  },
+  {
+    "case_id": "matched_random_50_30091719",
+    "arm": "matched_random",
+    "target_fraction": 0.5,
+    "seed": 30091719,
+    "removed_entries": 30735,
+    "actual_entry_fraction": 0.5007086652656273,
+    "method": "old_su_guard",
+    "fit": null
+  }
+]

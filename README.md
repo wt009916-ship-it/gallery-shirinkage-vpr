@@ -32,6 +32,33 @@ pp. 7409–7419, https://arxiv.org/abs/2512.02737 .
 
 ## Analysis code and local inputs
 
+`results/vild_visual/`, when present, contains only reviewed real-image CAMP
+transfer experiments. Validation and test references are pooled within each
+flight; evaluation queries within 500 m of calibration queries are excluded.
+The primary working radius is 100 m, with 50/150 m label sensitivity on the same
+answers. This is not the original CAEVL benchmark reproduction. The pinned
+author TestDataset class defaults to 25 m (overridable by its caller), whereas
+the official project reports 100/150/250/500 m and its README includes 100/250 m.
+The class default must not be confused with the paper's reporting convention.
+`results/vild_25m/`, when present, rescales the labels to 25 m with identical
+predictions and accepted queries from the parent 100 m protocol; it does not
+fit new thresholds or imply 25 m risk control. The supplementary rule was
+declared during image extraction before retrieval outcomes were computed.
+Historical-winner survival and historical-confidence scoring are separate
+comparators. Both flights spatially overlap; masks/frames are not independent
+places, and neither flight is assigned an unverified weather label. Raw images,
+coordinates, feature arrays, per-image manifests and passwords are excluded.
+
+The unadapted CAMP model's full-gallery 100 m R@1 is only 208/3754 (5.54%)
+and 345/12052 (2.86%) on the two buffered query sets. The historical-score
+utility rule fails. These are weak cross-dataset transfer results, not a claim
+that the proposed selection mechanism fails for every useful in-domain model.
+Author-reported CAEVL numbers use different training and evaluation settings
+and are not a controlled comparison against this run. If present,
+`results/vild_diagnostic/` checks cached image order, fixed-sample forward passes,
+all full-gallery winners, and a post-result test-only-gallery sensitivity.
+It changes no frozen outcomes or thresholds and is not original CAEVL replication.
+
 `experiments/` is a byte-identical source snapshot with local import dependencies.
 `configs/A-CAMP-*.json` preserves the frozen CAMP settings and provenance hashes.
 The historical scripts use a project root containing `results/`, `configs/`,
