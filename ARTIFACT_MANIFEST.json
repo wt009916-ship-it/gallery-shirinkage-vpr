@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-09-30T03:51:28.371722+00:00",
+  "created_utc": "2026-09-30T09:26:49.151403+00:00",
   "files": {
     "tables/stage14/camp_confidence_bins.csv": {
       "sha256": "7fb366f378a4ef89d15cccd5a88eacda65fcc7d979907e908aa0a1e709fbb1f6",
@@ -419,6 +419,11 @@
     ".gitignore": {
       "sha256": "149309ea2d853d3ad9572637c17b6000b1f6e0b93d3ccc81c2d3f3a7e95847e5",
       "bytes": 74,
+      "source": "release-specific original text"
+    },
+    ".gitattributes": {
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "bytes": 9,
       "source": "release-specific original text"
     }
   },
