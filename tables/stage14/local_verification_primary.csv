@@ -1,0 +1,17 @@
+﻿dataset,method,answers10,errors10,answers25,errors25,answers50,errors50,created50
+university,current_su,85.0,2.1,213.0,6.7,426.0,17.9,8.7
+university,current_su_guard,85.0,1.5,213.0,5.05,426.0,9.65,0.0
+university,old_su,85.0,21.0,213.0,53.85,426.0,106.3,100.5
+university,old_su_guard,85.0,0.8,213.0,4.95,426.0,7.0,0.0
+university,current_cosine,85.0,3.15,213.0,5.2,426.0,23.1,7.9
+university,current_cosine_guard,85.0,2.4,213.0,3.8,426.0,15.3,0.0
+university,current_loftr,85.0,4.9,213.0,8.9,426.0,31.0,21.3
+university,current_loftr_guard,85.0,1.6,213.0,1.8,426.0,11.75,0.0
+sues,current_su,142.0,1.1,357.0,5.85,714.0,43.1,21.5
+sues,current_su_guard,142.0,0.15,357.0,3.1,714.0,23.95,0.0
+sues,old_su,142.0,36.6,357.0,93.8,714.0,185.25,178.6
+sues,old_su_guard,142.0,0.0,357.0,3.0,714.0,21.8,0.0
+sues,current_cosine,142.0,0.4,357.0,14.05,714.0,92.25,39.2
+sues,current_cosine_guard,142.0,0.4,357.0,12.7,714.0,63.2,0.0
+sues,current_loftr,142.0,0.15,357.0,20.7,714.0,157.85,84.3
+sues,current_loftr_guard,142.0,0.0,357.0,12.0,714.0,86.0,0.0

@@ -1,0 +1,180 @@
+{
+  "exp_id": "A-CAMP-SELECTION-001",
+  "date": "2026-09-30",
+  "datasets": [
+    "university",
+    "sues"
+  ],
+  "scores": [
+    "su",
+    "distance_top1",
+    "distance_grid",
+    "distance_exact",
+    "aps_grid",
+    "aps_exact"
+  ],
+  "policies": [
+    {
+      "name": "su_none",
+      "score": "su",
+      "gate": "none"
+    },
+    {
+      "name": "su_guard",
+      "score": "su",
+      "gate": "guard"
+    },
+    {
+      "name": "distance_top1_none",
+      "score": "distance_top1",
+      "gate": "none"
+    },
+    {
+      "name": "distance_top1_guard",
+      "score": "distance_top1",
+      "gate": "guard"
+    },
+    {
+      "name": "distance_grid_none",
+      "score": "distance_grid",
+      "gate": "none"
+    },
+    {
+      "name": "distance_grid_nonempty",
+      "score": "distance_grid",
+      "gate": "nonempty"
+    },
+    {
+      "name": "distance_grid_guard",
+      "score": "distance_grid",
+      "gate": "guard"
+    },
+    {
+      "name": "distance_grid_both",
+      "score": "distance_grid",
+      "gate": "both"
+    },
+    {
+      "name": "distance_exact_none",
+      "score": "distance_exact",
+      "gate": "none"
+    },
+    {
+      "name": "distance_exact_nonempty",
+      "score": "distance_exact",
+      "gate": "nonempty"
+    },
+    {
+      "name": "distance_exact_guard",
+      "score": "distance_exact",
+      "gate": "guard"
+    },
+    {
+      "name": "distance_exact_both",
+      "score": "distance_exact",
+      "gate": "both"
+    },
+    {
+      "name": "aps_grid_none",
+      "score": "aps_grid",
+      "gate": "none"
+    },
+    {
+      "name": "aps_grid_nonempty",
+      "score": "aps_grid",
+      "gate": "nonempty"
+    },
+    {
+      "name": "aps_grid_guard",
+      "score": "aps_grid",
+      "gate": "guard"
+    },
+    {
+      "name": "aps_grid_both",
+      "score": "aps_grid",
+      "gate": "both"
+    },
+    {
+      "name": "aps_exact_none",
+      "score": "aps_exact",
+      "gate": "none"
+    },
+    {
+      "name": "aps_exact_nonempty",
+      "score": "aps_exact",
+      "gate": "nonempty"
+    },
+    {
+      "name": "aps_exact_guard",
+      "score": "aps_exact",
+      "gate": "guard"
+    },
+    {
+      "name": "aps_exact_both",
+      "score": "aps_exact",
+      "gate": "both"
+    }
+  ],
+  "answer_fractions": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "shared_prediction": "One fixed float64 L2 first candidate per current gallery, identical for every policy. SU computed from normalized-cosine top10; distance_top1 is negative nearest L2 distance. Minor L2/cosine tie differences are logged, not hidden. This is a new common-prediction comparison, not a replacement of original primary results.",
+  "confidence": "Reuse prior frozen-grid1-u for k1. Exact confidence=count(calibration nonconformity<=current second candidate score)/(n_cal+1), derived algebraically from continuous-alpha IV-C inversion. No fitted free parameter or optimized grid. A zero count is unresolved; exact threshold is the largest eligible calibration score.",
+  "gates": "none; nonempty=resolved selected-alpha conformal set contains at least one candidate; guard=original L2 first candidate still exists; both=conjunction. No candidate reranking. Same answer count within each scope; if too few eligible queries, declare infeasible and do not substitute smaller budget.",
+  "scopes": "same pooled/height scopes as previous protocol; 61 identical masks and prior calibration/evaluation identities, no fresh independent confirmation",
+  "primary": "Descriptive target25pct deletion at pooled50pct answers. All three budgets, heights, control25 and target50 reported. No new efficacy threshold or attempt to reverse prior primaryFAIL.",
+  "contrasts": [
+    [
+      "distance_grid_none",
+      "distance_grid_nonempty"
+    ],
+    [
+      "distance_grid_nonempty",
+      "distance_grid_both"
+    ],
+    [
+      "su_guard",
+      "distance_grid_both"
+    ],
+    [
+      "su_guard",
+      "aps_grid_both"
+    ],
+    [
+      "distance_grid_none",
+      "distance_exact_none"
+    ],
+    [
+      "aps_grid_none",
+      "aps_exact_none"
+    ],
+    [
+      "distance_grid_both",
+      "distance_exact_both"
+    ],
+    [
+      "aps_grid_both",
+      "aps_exact_both"
+    ],
+    [
+      "su_guard",
+      "distance_exact_both"
+    ],
+    [
+      "su_guard",
+      "aps_exact_both"
+    ]
+  ],
+  "cost": "CPU on existing real feature cache; no new GPU inference/training/download. Predicted <10min including independent review, <1GiB working memory. No claim of deployment memory reduction.",
+  "inputs": {
+    "configs/A-CAMP-COHORTS-001.json": "d9f760a55cc42ad8b35d157ffd284b3ac04d42401066cde4da7d26c01839ee21",
+    "configs/A-CAMP-ROBUSTNESS-001.json": "755fc14b8823caf3c976e6a1428e71d54a5a4f79da14dacdf41390d86dd2b301",
+    "results/A-CAMP-ROBUSTNESS-001/inference.json": "51cc1b60066b2069a0c0c30d1ccaf60c0ffd6215bce7e6cf65e5a89d08bcd29e",
+    "results/A-CAMP-ROBUSTNESS-001/university/features.npz": "edf9c790adf8618038263fe4b049cdc5cca2f175f720269f280e06e5524a4924",
+    "results/A-CAMP-ROBUSTNESS-001/sues/features.npz": "73bde4ed5cdf955cf10a5ad49482ce91996c31553c4aab5c95f1d5603a818bd8"
+  },
+  "followup_scope": "Pre-fixed formula-identical CAMP repetition on existing cohorts. No new independent data or reversal of original Sample4Geo efficacy gate.",
+  "confidence_dependency": "CAMP confidence outputs produced under the jointly frozen protocol; runtime hashes of confidence metrics/query arrays added to STARTED."
+}

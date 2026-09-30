@@ -1,0 +1,7 @@
+﻿dataset,encoder,answers,full_correct,full_queries,current,checked_current,checked_history
+university,Sample4Geo,426,773,852,17.9,9.65,7.0
+university,CAMP,426,797,852,13.15,7.0,6.5
+university,DINOv2,426,152,852,317.35,320.95,320.9
+sues,Sample4Geo,714,1196,1428,43.1,23.95,21.8
+sues,CAMP,714,1169,1428,32.75,23.2,21.4
+sues,DINOv2,714,544,1428,381.8,364.55,363.35

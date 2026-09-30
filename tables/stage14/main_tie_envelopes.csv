@@ -1,0 +1,13 @@
+﻿encoder,dataset,arm,fraction,scope,answer_fraction,policy,feasible_masks,mean_errors,mean_min_errors,mean_max_errors,mean_expected_errors,mean_boundary_ties,mean_take_from_tie
+Sample4Geo,sues,target,0.25,pooled,0.5,aps_exact_both,20,94.7,90.1,97.5,93.17893166458062,48.75,17.7
+Sample4Geo,sues,target,0.25,pooled,0.5,aps_grid_both,20,98.05,83.7,114.55,94.71360152290528,159.0,52.9
+Sample4Geo,sues,target,0.25,pooled,0.5,distance_exact_both,20,105.95,104.45,106.65,105.45752845055647,14.5,7.1
+Sample4Geo,university,target,0.25,pooled,0.5,aps_exact_both,20,20.85,20.25,21.4,20.959403951436403,47.1,28.8
+Sample4Geo,university,target,0.25,pooled,0.5,aps_grid_both,20,26.75,6.6,33.9,26.352340633834892,457.55,331.1
+Sample4Geo,university,target,0.25,pooled,0.5,distance_exact_both,20,37.7,37.65,38.15,37.8834126984127,4.5,2.4
+CAMP,sues,target,0.25,pooled,0.5,aps_exact_both,20,90.1,81.95,93.55,88.62776706840756,67.65,42.3
+CAMP,sues,target,0.25,pooled,0.5,aps_grid_both,20,92.55,74.8,125.1,91.2990780107717,229.9,67.75
+CAMP,sues,target,0.25,pooled,0.5,distance_exact_both,20,133.6,132.8,134.4,133.55378743805215,10.65,6.2
+CAMP,university,target,0.25,pooled,0.5,aps_exact_both,20,12.7,11.05,12.95,12.579451457777344,73.5,61.25
+CAMP,university,target,0.25,pooled,0.5,aps_grid_both,20,12.55,6.95,13.9,12.568806703650116,393.0,317.8
+CAMP,university,target,0.25,pooled,0.5,distance_exact_both,20,25.7,25.55,25.8,25.640999245852186,7.1,4.35

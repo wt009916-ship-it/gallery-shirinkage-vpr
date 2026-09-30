@@ -1,0 +1,56 @@
+[
+  {
+    "condition": "plain_same",
+    "fold": "west_to_east",
+    "queries": 200,
+    "correct": 16,
+    "reference_distance_median": 2194.635910392846,
+    "reference_within20": 28,
+    "reference_within50": 59
+  },
+  {
+    "condition": "plain_same",
+    "fold": "east_to_west",
+    "queries": 577,
+    "correct": 181,
+    "reference_distance_median": 20.1659805586949,
+    "reference_within20": 268,
+    "reference_within50": 400
+  },
+  {
+    "condition": "old_same",
+    "fold": "west_to_east",
+    "queries": 200,
+    "correct": 38,
+    "reference_distance_median": 51.47873555727012,
+    "reference_within20": 62,
+    "reference_within50": 100
+  },
+  {
+    "condition": "old_same",
+    "fold": "east_to_west",
+    "queries": 577,
+    "correct": 132,
+    "reference_distance_median": 44.1660932476013,
+    "reference_within20": 192,
+    "reference_within50": 301
+  },
+  {
+    "condition": "old_to_plain",
+    "fold": "west_to_east",
+    "queries": 200,
+    "correct": 16,
+    "reference_distance_median": 2194.635910392846,
+    "reference_within20": 28,
+    "reference_within50": 59
+  },
+  {
+    "condition": "old_to_plain",
+    "fold": "east_to_west",
+    "queries": 577,
+    "correct": 181,
+    "reference_distance_median": 20.1659805586949,
+    "reference_within20": 268,
+    "reference_within50": 400
+  }
+]

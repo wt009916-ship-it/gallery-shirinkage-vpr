@@ -1,0 +1,15 @@
+{
+  "status": "PASS_EXHAUSTIVE_ACCOUNTING",
+  "checks": 1920,
+  "rows": 640,
+  "posthoc": true,
+  "source_inputs": {
+    "A-DENSEUAV-EXTERNAL-001/metrics.json": "34ba065693e88cf49875bd21171881921dca71a88cc77fe55cd1c169207d1ed2",
+    "A-DENSEUAV-EXTERNAL-001/decisions.npz": "679f2fab507133d63bfecba5528ba11b78519cf86753cbb1dc77a77f64bd8d81",
+    "A-DENSEUAV-EXTERNAL-001/review.json": "a278598d8d0e8c2c3a07ccb554bef27f53bef91658a4583dc36bce51b82add92",
+    "A-DENSEUAV-VITS-001/metrics.json": "ca5793cc41c9697e92cc5165e9121682ef5d94ae838eadad1adf5a36cb8b58fb",
+    "A-DENSEUAV-VITS-001/decisions.npz": "c64b6f0034ed9376daa70377900b4bc0f42f7fa9085e4245790408162f845b12",
+    "A-DENSEUAV-VITS-001/review.json": "b36749296190e3cad791ee122f124bda62816e24e831ae5bd20af8115e8f1e03"
+  },
+  "meaning": "tXYZ: wrongness before replacement / after replacement without deletion / after replacement plus deletion. Ordered algebra, not unique causal attribution. No predictions/acceptance changed."
+}

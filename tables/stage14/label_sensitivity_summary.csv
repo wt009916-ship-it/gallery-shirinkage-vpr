@@ -1,0 +1,13 @@
+﻿dataset,base,test,masks,answers,original_total_contrast,original_mean_contrast,distinct_nonzero_edges,minimum_edges_to_erase,erase_status,minimum_edges_to_reverse,reverse_status
+university,current_su,current_su_guard,20,426,165,8.25,40,26,REACHABLE,27,REACHABLE
+university,current_su_guard,old_su_guard,20,426,53,2.65,10,10,REACHABLE,,UNREACHABLE_WITH_LABEL_EXPANSION
+university,current_su,current_cosine,20,426,-104,-5.2,47,4,REACHABLE,4,REACHABLE
+university,current_cosine,current_loftr,20,426,-158,-7.9,88,12,REACHABLE,12,REACHABLE
+university,current_su,current_loftr,20,426,-262,-13.1,86,22,REACHABLE,22,REACHABLE
+university,current_loftr,current_loftr_guard,20,426,385,19.25,75,45,REACHABLE,46,REACHABLE
+sues,current_su,current_su_guard,20,714,383,19.15,68,31,REACHABLE,31,REACHABLE
+sues,current_su_guard,old_su_guard,20,714,43,2.15,26,10,REACHABLE,10,REACHABLE
+sues,current_su,current_cosine,20,714,-983,-49.15,103,21,REACHABLE,21,REACHABLE
+sues,current_cosine,current_loftr,20,714,-1312,-65.6,303,48,REACHABLE,48,REACHABLE
+sues,current_su,current_loftr,20,714,-2295,-114.75,302,129,REACHABLE,129,REACHABLE
+sues,current_loftr,current_loftr_guard,20,714,1437,71.85,284,111,REACHABLE,111,REACHABLE

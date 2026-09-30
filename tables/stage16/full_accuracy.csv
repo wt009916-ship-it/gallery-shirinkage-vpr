@@ -1,0 +1,13 @@
+encoder,condition,fold,queries,correct,reference_distance_median,reference_within20,reference_within50
+CAMP transfer,plain_same,west_to_east,200,16,2194.635910392846,28,59
+CAMP transfer,plain_same,east_to_west,577,181,20.1659805586949,268,400
+CAMP transfer,old_same,west_to_east,200,38,51.47873555727012,62,100
+CAMP transfer,old_same,east_to_west,577,132,44.1660932476013,192,301
+CAMP transfer,old_to_plain,west_to_east,200,16,2194.635910392846,28,59
+CAMP transfer,old_to_plain,east_to_west,577,181,20.1659805586949,268,400
+ViT-S in-domain (third party),plain_same,west_to_east,200,130,0.0,138,159
+ViT-S in-domain (third party),plain_same,east_to_west,577,450,0.0,473,523
+ViT-S in-domain (third party),old_same,west_to_east,200,159,0.0,170,186
+ViT-S in-domain (third party),old_same,east_to_west,577,439,0.0,463,504
+ViT-S in-domain (third party),old_to_plain,west_to_east,200,130,0.0,138,159
+ViT-S in-domain (third party),old_to_plain,east_to_west,577,450,0.0,473,523

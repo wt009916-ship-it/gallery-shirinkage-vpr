@@ -1,0 +1,17 @@
+{
+  "status": "PASS_INDEPENDENT_RECONSTRUCTION",
+  "checks": 140638,
+  "rows": 14640,
+  "thresholds": 2928,
+  "seconds": 412.69946649996564,
+  "limitations": [
+    "Shared frozen encoder and SQ8 library; independent ranking/selection/count reconstruction, not independent implementation of neural network",
+    "Spherical reference-coordinate distances only; no certified physical GPS accuracy"
+  ],
+  "input_sha256": {
+    "features.npz": "b025234159cece2cf6c5d5c781fdac636c36bd70ecedf2822587abb89729ffb0",
+    "metrics.json": "34ba065693e88cf49875bd21171881921dca71a88cc77fe55cd1c169207d1ed2",
+    "decisions.npz": "679f2fab507133d63bfecba5528ba11b78519cf86753cbb1dc77a77f64bd8d81",
+    "evaluation.json": "7e80114cf5724b0165ed226d6e06fd7a1acedbaeb3085d188e6253c5ba839838"
+  }
+}

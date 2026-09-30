@@ -1,0 +1,42 @@
+{
+  "status": "UTILITY_RULE_FAIL",
+  "base": {
+    "condition": "plain_same",
+    "fold": "west_to_east",
+    "arm": "target",
+    "fraction": 0.25,
+    "method": "current_su_guard",
+    "regime": "budget50",
+    "feasible_masks": 20,
+    "useful10_masks": 0,
+    "mean_answered": 100.0,
+    "mean_errors": 87.75,
+    "mean_correct": 12.25,
+    "mean_created_errors": 0.0,
+    "mean_inherited_errors": 87.75,
+    "mean_reference_errors_gt20m": 80.95,
+    "mean_reference_errors_gt50m": 63.4,
+    "mean_reference_errors_gt100m": 61.15
+  },
+  "historical": {
+    "condition": "plain_same",
+    "fold": "west_to_east",
+    "arm": "target",
+    "fraction": 0.25,
+    "method": "old_su_guard",
+    "regime": "budget50",
+    "feasible_masks": 20,
+    "useful10_masks": 0,
+    "mean_answered": 100.0,
+    "mean_errors": 87.75,
+    "mean_correct": 12.25,
+    "mean_created_errors": 0.0,
+    "mean_inherited_errors": 87.75,
+    "mean_reference_errors_gt20m": 81.35,
+    "mean_reference_errors_gt50m": 65.65,
+    "mean_reference_errors_gt100m": 64.15
+  },
+  "absolute_reduction": 0.0,
+  "relative_reduction": 0.0,
+  "original_SUES_failure_overturned": false
+}

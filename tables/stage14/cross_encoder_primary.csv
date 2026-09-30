@@ -1,0 +1,5 @@
+﻿dataset,encoder,answered,current_errors,checked_errors,historical_checked_errors,removed_new,removed_inherited,removed_correct,added_inherited
+university,sample4geo,426,17.9,9.65,7.0,8.7,0.05,1.6,0.5
+university,dinov2,426,317.35,320.95,320.9,18.95,35.65,6.6,58.2
+sues,sample4geo,714,43.1,23.95,21.8,21.5,0.6,2.0,2.95
+sues,dinov2,714,381.8,364.55,363.35,52.6,37.15,13.2,72.5

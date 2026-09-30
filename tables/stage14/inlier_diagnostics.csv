@@ -1,0 +1,9 @@
+﻿dataset,population,identity_correct,count,zero_inliers,one_to_three,four_to_seven,at_least_eight,median_inliers,mean_inliers,median_matches,maximum_inliers
+university,full_gallery_evaluation_queries,True,773,0,0,12,761,81.0,161.97412677878395,349.0,1974
+university,full_gallery_evaluation_queries,False,79,0,0,6,73,10.0,27.341772151898734,155.0,567
+university,scored_pairs_for_evaluation_queries,True,821,0,0,14,807,76.0,156.83191230207063,340.0,1974
+university,scored_pairs_for_evaluation_queries,False,2408,0,0,291,2117,10.0,20.644102990033222,149.0,1528
+sues,full_gallery_evaluation_queries,True,1196,0,0,157,1039,11.0,78.22742474916387,133.0,1391
+sues,full_gallery_evaluation_queries,False,232,0,0,43,189,9.0,9.517241379310345,116.0,18
+sues,scored_pairs_for_evaluation_queries,True,1322,0,0,175,1147,11.0,74.12405446293495,133.0,1391
+sues,scored_pairs_for_evaluation_queries,False,3559,0,0,855,2704,9.0,9.428772127001967,112.0,176

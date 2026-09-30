@@ -1,0 +1,80 @@
+# Gallery shrinkage in cross-view visual retrieval
+
+Research artifact snapshot: audited experiment tables and the original analysis
+scripts used locally. This is ongoing work, not a released safety guarantee or
+a claim of state-of-the-art performance. The original SUES historical-SU utility
+criterion failed and remains reported. DINOv2 counterexamples are retained.
+
+## What can be verified immediately
+
+Run `python verify_artifacts.py` (Python 3.10+, standard library only). This
+checks every exported file hash, table arithmetic, and recorded tie bounds.
+It does not repeat image inference or certify scientific novelty.
+
+`tables/stage14/` contains the numerical tables underlying the sixth reviewed
+draft. `main_encoder_comparison.csv` is the compact primary comparison.
+Detailed tables include infeasible cases; do not silently drop them or compare
+means over different feasible masks. Gallery masks are repeated interventions,
+not independent places. Fixed-answer risk is not conformal set coverage.
+
+## Analysis code and local inputs
+
+`experiments/` is a byte-identical source snapshot with local import dependencies.
+`configs/A-CAMP-*.json` preserves the frozen CAMP settings and provenance hashes.
+The historical scripts use a project root containing `results/`, `configs/`,
+`sources/` and `checkpoints/`. Many also require a clean committed protocol and
+exclusive STARTED markers. Do not delete markers to overwrite an old run.
+
+Image-level reruns additionally require legally obtained data, feature arrays,
+upstream source and checkpoint manifests. These are **not included**. This is
+an audit snapshot, not a self-contained image-inference distribution. To reuse
+the code, acquire the listed sources and prepare the input paths in each config;
+do not remove integrity checks to force a run with unverified inputs.
+
+Local computational environment: Python 3.12.14, PyTorch 2.8.0+cu128,
+torchvision 0.23, CAMP timm 0.5.4; NumPy, SciPy and OpenCV. CAMP uses FP32,
+384x384 RGB, ImageNet normalization, no flips, normalized 1024-D global output.
+The Sample4Geo environment used isolated timm 0.9.16. The two supervised
+encoders are both ConvNeXt-B, not independent architectures.
+
+## DenseUAV extension
+
+The metadata-first H90 protocol covers all 777 query locations and 3,033 gallery
+locations, with both old/plain satellite filename variants. Spatial folds are
+defined before scoring, separated by at least 2.88 km. Per-file year mapping
+is not independently certified. This tests gallery acquisition change, not
+controlled query weather. Identity and 20/50/100 m nominal-coordinate outcomes
+are reported separately on identical accepted answers. H90 is a declared slice,
+not the complete DenseUAV benchmark. `results/denseuav/`, if present, contains
+only results that passed reconstruction review. A subsequent third-party
+DenseUAV-trained ViT-S follow-up appears in `results/denseuav_vits/` if reviewed.
+It uses the trained 512-D head, baseline test.py preprocessing, and flip summation;
+it is not an authenticated author checkpoint. The follow-up is selected after
+CAMP results on the same locations. Original failures are retained. Public model:
+https://huggingface.co/Bancie/UAV-Self-Positioning-23M-ZCN
+revision ec6fa074268d16cfe655d87d7d086193131ab89a.
+
+`results/denseuav_transitions/` contains posthoc ordered eight-cell error
+accounting: old gallery, replacement without deletion, replacement plus deletion.
+This is descriptive accounting, not unique causal attribution. Infeasible cases
+remain in the CSV; summary means use feasible masks and report their count.
+
+## Sources and data access
+
+- University-1652: https://github.com/layumi/University1652-Baseline
+  Zheng, Wei, Yang. ACM Multimedia 2020. Research-only dataset; no redistribution.
+- CAMP: https://github.com/Mabel0403/CAMP
+  source commit b04a9c856711770ed7a72ebf851838329c5e5b8e;
+  DOI 10.1109/TGRS.2024.3448499.
+- DenseUAV: https://github.com/Dmmm1997/DenseUAV
+  DOI 10.1109/TIP.2023.3346279;
+  official linked mirror https://huggingface.co/datasets/Dmmm997/DenseUAV,
+  revision 0f54323a4ea4d68ae52eb38a5af32bce26955fd1.
+- Conformal aerial VPR comparator: DOI 10.1109/ICUAS69441.2026.11598635.
+  Our distance/APS experiments adapt its formulas to single-answer selection;
+  they do not reproduce the paper's complete original evaluation.
+
+No images, GPS source files, pretrained weights, private correspondence,
+unpublished manuscript, personal account paths or local Git history are shipped.
+Upstream software and data retain their own licenses. No blanket license is
+assigned here to material whose authorship/licensing has not been confirmed.
